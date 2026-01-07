@@ -1,0 +1,517 @@
+{
+  "metadata": {
+    "appVersion": "1.0.0",
+    "dataVersion": "1.0.0-EXT"
+  },
+  "apps": {
+    "bromcom": {
+      "name": "Bromcom",
+      "url": "https://cloudmis.bromcom.com",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "School Management System",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "bromcom-vision": {
+      "name": "Bromcom Vision",
+      "url": "https://vision.bromcom.com",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Trust Management Information System",
+      "priority": 4,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "bromcom-docs": {
+      "name": "Bromcom Help Centre",
+      "url": "https://docs.bromcom.com/",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Bromcom Docs & Training",
+      "priority": 4,
+      "listOnly": true,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "bromcom-status": {
+      "name": "Bromcom Cloud Service Status",
+      "url": "https://status.bromcomcloud.com",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Bromcom UK Cloud Service Status Page",
+      "priority": 4,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "bromcom-support": {
+      "name": "Bromcom Support Website",
+      "url": "https://help.bromcom.com",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Bromcom Support Website",
+      "priority": 4,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },    
+    "bromcom-comingsoon": {
+      "name": "Bromcom What's Coming Soon",
+      "url": "https://docs.bromcom.com/coming-soon/",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Bromcom Whats Coming Soon",
+      "priority": 8,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "ihasco": {
+      "name": "iHASCO",
+      "url": "https://www.ihasco.co.uk/login",
+      "image": "https://apps.bhcet.org.uk/images/ihasco.jpg",
+      "description": "Online Training Platform",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "bromcom-whatsnew": {
+      "name": "Bromcom What's New",
+      "url": "https://whatsnew.bromcomcloud.com",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Bromcom Whats New",
+      "priority": 8,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "bromcom-community": {
+      "name": "BromCommunity",
+      "url": "https://community.bromcomcloud.com/",
+      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "description": "Network with other Bromcom users",
+      "priority": 5,
+      "listOnly": true,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "arbor-status": {
+      "name": "Arbor Status Page",
+      "url": "https://status.arbor-education.com/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Arbor Status Page",
+      "priority": 10,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "arbor-changelog": {
+      "name": "Arbor Changelog",
+      "url": "https://support.arbor-education.com/hc/en-us/articles/6790058820253-Arbor-Change-Log",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Provides updates on new features and improvements made to Arbor",
+      "priority": 10,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "arbor-roadmap": {
+      "name": "Arbor Roadmap",
+      "url": "https://support.arbor-education.com/hc/en-us/articles/25652835304605-Our-Product-Roadmap-and-how-to-submit-ideas-and-improvements",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Arbor Roadmap",
+      "priority": 10,
+      "audience": "staff",
+      "listOnly": true,
+      "displayMode": "full"
+    },
+    "arbor-helpcentre": {
+      "name": "Arbor Help Centre",
+      "url": "https://support.arbor-education.com",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Learn about Arbor",
+      "priority": 8,
+      "listOnly": true,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "arbor-traininghub": {
+      "name": "Arbor Training Hub",
+      "url": "https://arboreducation.northpass.com",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Your go-to place for your Arbor training",
+      "priority": 8,
+      "listOnly": true,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "arbor-hq": {
+      "name": "Arbor HQ",
+      "url": "https://arbor-hq.circle.so/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Network with fellow Arbor users",
+      "priority": 5,
+      "listOnly": true,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "classcharts": {
+      "name": "ClassCharts",
+      "url": "https://www.classcharts.com/account/login",
+      "image": "https://apps.bhcet.org.uk/images/classcharts.jpg",
+      "description": "",
+      "priority": 3,
+      "audience": "staff",
+      "displayMode": "icon-only"
+    },
+    "cpoms": {
+      "name": "CPOMS",
+      "url": "https://login.cpoms.net/login",
+      "image": "https://apps.bhcet.org.uk/images/cpoms.jpg",
+      "description": "Safeguarding and Wellbeing",
+      "priority": 3,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "car-arbor": {
+      "name": "Arbor",
+      "url": "https://carmel-college.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "ems-arbor": {
+      "name": "Arbor",
+      "url": "https://english-martyrs-catholic-school-and-sixth-form-college.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - English Martyrs",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stjo-arbor": {
+      "name": "Arbor",
+      "url": "https://st-johns-catholic-school-and-sixth-form-college.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - St Johns",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "olsb-arbor": {
+      "name": "Arbor",
+      "url": "https://our-lady-and-st-bede-catholic-academy.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - OLSB",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stm-arbor": {
+      "name": "Arbor",
+      "url": "https://st-michaels-catholic-academy.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - STM",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "arbor-matmis": {
+      "name": "Arbor MAT MIS",
+      "url": "https://bishop-hogarth-catholic-education-trust.uk.arbor.education",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "Trust Managment Information System",
+      "priority": 1,
+      "audience": "staff",
+      "displayMode": "full"
+    }
+  },
+  "sites": {
+    "bhcet-central": {
+      "name": "BHCET Central Team",
+      "code": "BHCET-Central",
+      "ipRanges": [],
+      "staffOnly": true,
+      "staffApps": ["bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis"],
+      "studentApps": []
+    },
+    "bjd": {
+      "name": "Blessed John Duckett Catholic Primary School",
+      "code": "BJD",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "car": {
+      "name": "Carmel College",
+      "code": "CAR",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","email", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "ems": {
+      "name": "The English Martyrs Catholic School & Sixth Form College",
+      "code": "EMS",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor"],
+      "studentApps": []
+    },
+    "hfp": {
+      "name": "Holy Family Catholic Primary School",
+      "code": "HFP",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "olsb": {
+      "name": "Our Lady and St Bede Catholic Primary School",
+      "code": "OLSB",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor"],
+      "studentApps": []
+    },
+    "olst": {
+      "name": "Our Lady and St Thomas Catholic Primary School",
+      "code": "OLST",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "hr": {
+      "name": "Our Lady Of The Most Holy Rosary Catholic Academy",
+      "code": "HR",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "shrt": {
+      "name": "Sacred Heart Catholic Primary School",
+      "code": "SHRT",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "sta": {
+      "name": "St Augustine's Catholic Primary School",
+      "code": "STA",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stb": {
+      "name": "St Bede's Catholic Primary School, Darlington",
+      "code": "STB",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stbs": {
+      "name": "St Bede's Catholic Academy, Stockton",
+      "code": "STBS",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stbeg": {
+      "name": "St Bega's Catholic Primary School",
+      "code": "STBEG",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stcd": {
+      "name": "St Chad's Catholic Primary School",
+      "code": "STCD",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stch": {
+      "name": "St Charles' Catholic Primary School",
+      "code": "STCH",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stcbc": {
+      "name": "St Cuthbert's Catholic Primary School, Crook",
+      "code": "STCBC",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stcbs": {
+      "name": "St Cuthbert's Catholic Primary School, Stockton",
+      "code": "STCBS",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stcbh": {
+      "name": "St Cuthbert's Catholic Primary School, Hartlepool",
+      "code": "STCBH",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stg": {
+      "name": "St Gregory's Catholic Academy",
+      "code": "STG",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stjo": {
+      "name": "St John's Catholic School & Sixth Form College",
+      "code": "STJO",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor"],
+      "studentApps": []
+    },
+    "stjte": {
+      "name": "St John The Evangelist Catholic Primary School",
+      "code": "STJTE",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "sjv": {
+      "name": "St John Vianney Catholic Primary School",
+      "code": "SJV",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stjb": {
+      "name": "St Joseph's Catholic Primary School, Billingham",
+      "code": "STJB",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stjc": {
+      "name": "St Joseph's Catholic Primary School, Coundon",
+      "code": "STC",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stjh": {
+      "name": "St Joseph's Catholic Primary School, Hartlepool",
+      "code": "STJH",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stjna": {
+      "name": "St Joseph's Catholic Primary School, Newton Aycliffe",
+      "code": "STJNA",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stj": {
+      "name": "St Joseph's Catholic Academy, Norton",
+      "code": "STJ",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stmbc": {
+      "name": "St Mary's Catholic Primary School, Barnard Castle",
+      "code": "STMBC",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stmna": {
+      "name": "St Mary's Catholic Primary School, Newton Aycliffe",
+      "code": "STMNA",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stm": {
+      "name": "St Michael's Catholic Academy",
+      "code": "STM",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor"],
+      "studentApps": []
+    },
+    "stpks": {
+      "name": "St Patrick's Catholic Primary School",
+      "code": "STPKS",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stpa": {
+      "name": "St Paul's Catholic Primary School",
+      "code": "STPA",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stp": {
+      "name": "St Teresa's Catholic Primary School, Darlington",
+      "code": "STP",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stph": {
+      "name": "St Teresa's Catholic Primary School, Hartlepool",
+      "code": "STPH",
+      "ipRanges": [],
+      "staffOnly": true,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stwl": {
+      "name": "St Wilfrid's Catholic Primary School",
+      "code": "STWL",
+      "ipRanges": [],
+      "staffOnly": false,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    },
+    "stw": {
+      "name": "St William's Catholic Academy",
+      "code": "STW",
+      "ipRanges": [],
+      "staffOnly": true,
+      "staffApps": ["bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco"],
+      "studentApps": []
+    }
+  }
+}

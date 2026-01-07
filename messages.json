@@ -1,0 +1,25 @@
+[
+  {
+    "text": "The car park barriers will be out of service from Monday through Wednesday next week while repairs are carried out. Please use the overflow car park on Miller Street during this time. Access codes for the side gate have been emailed to all staff members.",
+    "sites": ["car"],
+    "audience": "staff",
+    "icon": "🚗",
+    "startDate": "2025-12-09T06:00:00",
+    "endDate": "2025-12-19T18:00:00"
+  },
+  {
+    "text": "Congratulations to our students who achieved outstanding results in the recent science competition! Winners will be announced in assembly on Thursday.",
+    "sites": ["sjf", "sbc", "olm"],
+    "audience": "student",
+    "icon": "🏆",
+    "endDate": "2024-12-19T15:30:00"
+  },
+  {
+    "text": "Staff meeting rescheduled to 3:45pm today in the conference room.",
+    "sites": ["sma", "stp"],
+    "audience": "staff",
+    "icon": "📅",
+    "startDate": "2024-12-13T07:00:00",
+    "endDate": "2024-12-13T16:00:00"
+  }
+]
