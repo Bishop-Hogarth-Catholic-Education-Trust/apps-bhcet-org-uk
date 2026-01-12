@@ -348,7 +348,7 @@
       "studentApps": ["teams"]
     },
     "olsb": {
-      "name": "Our Lady and St Bede Catholic Primary School",
+      "name": "Our Lady and St Bede Catholic Academy",
       "code": "OLSB",
       "ipRanges": [],
       "staffOnly": false,
@@ -597,6 +597,7 @@
     }
   }
 }
+
 
 
 
