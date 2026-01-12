@@ -68,6 +68,7 @@
       "image": "https://apps.bhcet.org.uk/images/ihasco.jpg",
       "description": "Online Training Platform",
       "priority": 8,
+      "listOnly": true,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -597,6 +598,7 @@
     }
   }
 }
+
 
 
 
