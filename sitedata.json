@@ -166,7 +166,7 @@
       "image": "https://apps.bhcet.org.uk/images/classcharts.jpg",
       "description": "",
       "priority": 3,
-      "audience": "staff",
+      "audience": "student",
       "displayMode": "icon-only"
     },
     "cpoms": {
@@ -597,6 +597,7 @@
     }
   }
 }
+
 
 
 
