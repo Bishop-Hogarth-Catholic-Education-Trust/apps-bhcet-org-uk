@@ -159,7 +159,7 @@
       "description": "",
       "priority": 3,
       "audience": "staff",
-      "displayMode": "icon-only"
+      "displayMode": "minimal"
     },
     "classcharts-student": {
       "name": "ClassCharts",
@@ -168,7 +168,7 @@
       "description": "",
       "priority": 3,
       "audience": "student",
-      "displayMode": "icon-only"
+      "displayMode": "minimal"
     },
     "cpoms": {
       "name": "CPOMS",
@@ -598,6 +598,7 @@
     }
   }
 }
+
 
 
 
