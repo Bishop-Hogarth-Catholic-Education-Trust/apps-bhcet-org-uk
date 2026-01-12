@@ -151,9 +151,18 @@
       "audience": "staff",
       "displayMode": "full"
     },
-    "classcharts": {
+    "classcharts-staff": {
       "name": "ClassCharts",
       "url": "https://www.classcharts.com/account/login",
+      "image": "https://apps.bhcet.org.uk/images/classcharts.jpg",
+      "description": "",
+      "priority": 3,
+      "audience": "staff",
+      "displayMode": "icon-only"
+    },
+    "classcharts-student": {
+      "name": "ClassCharts",
+      "url": "https://www.classcharts.com/student/login",
       "image": "https://apps.bhcet.org.uk/images/classcharts.jpg",
       "description": "",
       "priority": 3,
@@ -319,7 +328,7 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts","cpoms","ihasco","email"],
+      "staffApps": ["copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
       "studentApps": ["teams"]
     },
     "ems": {
@@ -455,8 +464,8 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["teams"]
+      "staffApps": ["classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "studentApps": ["teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -588,6 +597,7 @@
     }
   }
 }
+
 
 
 
