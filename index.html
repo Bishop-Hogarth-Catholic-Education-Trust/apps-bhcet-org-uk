@@ -2296,6 +2296,9 @@
                 filteredApps = filteredApps.filter(app => fuzzyMatch(app, currentSearchTerm));
             }
 
+            // Before filtering out list-only apps, check if we have ANY matches (for "No Results" message)
+            const hasAnyMatches = filteredApps.length > 0;
+
             // Filter out list-only apps (they will be shown in the alphabetical list instead)
             filteredApps = filteredApps.filter(app => !app.listOnly);
 
@@ -2303,13 +2306,20 @@
             if (filteredApps.length === 0) {
                 // Check if this is because of search
                 if (currentSearchTerm) {
-                    container.innerHTML = `
-                        <div class="empty-state">
-                            <div class="empty-state-icon">🔍</div>
-                            <h2>No Results Found</h2>
-                            <p>No applications match "${currentSearchTerm}". Try a different search term.</p>
-                        </div>
-                    `;
+                    // Only show "No Results Found" if there are NO matches anywhere (including list-only apps)
+                    if (!hasAnyMatches) {
+                        container.innerHTML = `
+                            <div class="empty-state">
+                                <div class="empty-state-icon">🔍</div>
+                                <h2>No Results Found</h2>
+                                <p>No applications match "${currentSearchTerm}". Try a different search term.</p>
+                            </div>
+                        `;
+                        return;
+                    }
+                    // If we have matches in list-only apps, show empty tile grid (apps will be in alphabetical list)
+                    container.innerHTML = '';
+                    return;
                 } else {
                     container.innerHTML = `
                         <div class="empty-state">
