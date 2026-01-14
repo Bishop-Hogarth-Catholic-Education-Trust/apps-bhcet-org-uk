@@ -353,6 +353,13 @@
       "audience": "both",
       "displayMode": "full"
     },
+    "canva-listonly": {
+      "name": "Canva",
+      "url": "https://www.canva.com/en_gb/login/",
+      "audience": "both",
+      "listOnly": true,
+      "displayMode": "full"
+    },
     "reviseonline": {
       "name": "Pearson Revise (GCSE revision)",
       "url": "https://reviseonline.pearson.com/school/bhcet",
@@ -369,7 +376,7 @@
       "code": "BHCET-Central",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
+      "staffApps": ["canva-listonly","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
       "studentApps": []
     },
     "bjd": {
@@ -654,6 +661,7 @@
     }
   }
 }
+
 
 
 
