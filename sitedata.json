@@ -377,6 +377,15 @@
       "priority": 1,
       "audience": "both",
       "displayMode": "full"
+    },
+    "trust-website": {
+      "name": "Trust Website",
+      "url": "https://bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/bhcet.png",
+      "description": "Bishop Hogarth Catholic Education Trust Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -385,7 +394,7 @@
       "code": "BHCET-Central",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["canva-listonly","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
+      "staffApps": ["trust-website","canva-listonly","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
       "studentApps": []
     },
     "bjd": {
@@ -670,6 +679,7 @@
     }
   }
 }
+
 
 
 
