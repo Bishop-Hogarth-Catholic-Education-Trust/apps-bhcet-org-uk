@@ -1,7 +1,7 @@
 {
   "metadata": {
     "appVersion": "1.0.2",
-    "dataVersion": "1.0.6-EXT"
+    "dataVersion": "1.0.7-EXT"
   },
   "apps": {
     "bromcom": {
@@ -9,7 +9,7 @@
       "url": "https://cloudmis.bromcom.com",
       "image": "https://apps.bhcet.org.uk/images/bromcom.png",
       "description": "School Management System",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -184,7 +184,7 @@
       "url": "https://carmel-college.uk.arbor.education/",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - Carmel College",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -193,7 +193,7 @@
       "url": "https://english-martyrs-catholic-school-and-sixth-form-college.uk.arbor.education/",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - English Martyrs",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -202,7 +202,7 @@
       "url": "https://st-johns-catholic-school-and-sixth-form-college.uk.arbor.education/",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - St Johns",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -211,7 +211,7 @@
       "url": "https://our-lady-and-st-bede-catholic-academy.uk.arbor.education/",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - OLSB",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -220,7 +220,7 @@
       "url": "https://st-michaels-catholic-academy.uk.arbor.education/",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - STM",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -229,7 +229,7 @@
       "url": "https://bishop-hogarth-catholic-education-trust.uk.arbor.education",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "Trust Managment Information System",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -238,7 +238,7 @@
       "url": "https://outlook.cloud.microsoft",
       "image": "https://apps.bhcet.org.uk/images/outlook.png",
       "description": "Microsoft 365 Outlook Email",
-      "priority": 1,
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -247,7 +247,7 @@
       "url": "https://teams.microsoft.com/dl/launcher/launcher.html?url=team&type=team&suppressPrompt=false",
       "image": "https://apps.bhcet.org.uk/images/teams.png",
       "description": "Microsoft 365 Teams",
-      "priority": 1,
+      "priority": 2,
       "audience": "both",
       "displayMode": "full"
     },
@@ -368,6 +368,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+    "ems-website": {
+      "name": "School Website",
+      "url": "https://ems.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/ems.png",
+      "description": "The English Martyrs Catholic School and Sixth Form College Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -400,8 +409,8 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
-      "studentApps": ["reviseonline","canva","teams"]
+      "staffApps": ["ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "studentApps": ["ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
       "name": "Holy Family Catholic Primary School",
@@ -661,6 +670,7 @@
     }
   }
 }
+
 
 
 
