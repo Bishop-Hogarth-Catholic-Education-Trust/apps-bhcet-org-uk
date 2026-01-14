@@ -731,6 +731,29 @@
             background-repeat: no-repeat;
             background-position: right 24px center;
             box-shadow: 0 8px 24px var(--accent-glow);
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        /* Style the dropdown options for better readability */
+        .large-site-selector select option {
+            padding: 16px 20px;
+            font-size: 18px;
+            font-weight: 500;
+            background: var(--card-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .large-site-selector select option:first-child {
+            font-style: italic;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .large-site-selector select option:hover {
+            background: linear-gradient(135deg, rgba(79, 159, 255, 0.15) 0%, rgba(0, 212, 170, 0.1) 100%);
         }
 
         .large-site-selector select:hover {
@@ -1230,6 +1253,12 @@
             .large-site-selector select {
                 font-size: 18px;
                 padding: 18px 50px 18px 20px;
+                max-height: 60vh;
+            }
+
+            .large-site-selector select option {
+                padding: 14px 16px;
+                font-size: 16px;
             }
 
             .apps-list-grid {
@@ -1919,19 +1948,29 @@
                     <p>Choose your school or college to show your apps.</p>
                     <div class="large-site-selector">
                         <label for="largeSiteSelector">Choose Your Location</label>
-                        <select id="largeSiteSelector">
-                            <option value="">Select a site...</option>
+                        <select id="largeSiteSelector" size="12">
+                            <option value="" disabled selected>Select a site...</option>
                         </select>
                     </div>
                 </div>
             `;
 
-            // Populate the large selector (exclude hidden sites)
+            // Populate the large selector (exclude hidden sites, sort alphabetically)
             const largeSelector = document.getElementById('largeSiteSelector');
-            Object.keys(siteConfig).forEach(siteKey => {
-                if (siteKey === 'default') return; // Skip default in the list
+            
+            // Get all sites except default and hidden sites
+            const availableSites = Object.keys(siteConfig).filter(siteKey => {
+                return siteKey !== 'default' && !siteConfig[siteKey].hidden;
+            });
+            
+            // Sort alphabetically by site name
+            const sortedSites = availableSites.sort((a, b) => {
+                return siteConfig[a].name.localeCompare(siteConfig[b].name);
+            });
+            
+            // Add options in alphabetical order
+            sortedSites.forEach(siteKey => {
                 const site = siteConfig[siteKey];
-                if (site.hidden) return; // Skip hidden sites
                 const option = document.createElement('option');
                 option.value = siteKey;
                 option.textContent = site.name;
