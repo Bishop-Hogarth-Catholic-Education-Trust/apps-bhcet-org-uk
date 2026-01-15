@@ -574,7 +574,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["ms-onedrive","google-classroom","reviseonline","canva","teams","classcharts-student"]
+      "studentApps": ["ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -706,6 +706,7 @@
     }
   }
 }
+
 
 
 
