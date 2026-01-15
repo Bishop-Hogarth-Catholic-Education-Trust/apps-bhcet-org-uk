@@ -436,6 +436,15 @@
       "description": "Digital Signage",
       "audience": "staff",
       "listOnly": true
+    },
+    "stjo-accessit": {
+      "name": "Accessit Library",
+      "url": "https://uk.accessit.online/stj48/",
+      "image": "https://apps.bhcet.org.uk/images/accessit.png",
+      "description": "Accessit Learning Resource Centre (LRC)",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "minimal"
     }
   },
   "sites": {
@@ -596,8 +605,8 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
+      "staffApps": ["stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "studentApps": ["stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -729,6 +738,7 @@
     }
   }
 }
+
 
 
 
