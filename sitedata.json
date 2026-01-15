@@ -413,6 +413,22 @@
       "priority": 3,
       "audience": "both",
       "displayMode": "full"
+    },
+    "sisra": {
+      "name": "Sisra Analytics",
+      "url": "https://www.sisraanalytics.co.uk/Account/Login?ReturnUrl=%2F",
+      "image": "https://apps.bhcet.org.uk/images/sisra.png",
+      "description": "Data management software for secondary schools",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "sisra-linkonly": {
+      "name": "Sisra Analytics",
+      "url": "https://www.sisraanalytics.co.uk/Account/Login?ReturnUrl=%2F",
+      "description": "Data management software for secondary schools",
+      "audience": "staff",
+      "listOnly": true
     }
   },
   "sites": {
@@ -421,7 +437,7 @@
       "code": "BHCET-Central",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["ms-onedrive","trust-website","canva-listonly","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
+      "staffApps": ["sisra-linkonly","ms-onedrive","trust-website","canva-listonly","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
       "studentApps": []
     },
     "bjd": {
@@ -445,7 +461,7 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "staffApps": ["sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
       "studentApps": ["ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
@@ -573,7 +589,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
@@ -706,6 +722,7 @@
     }
   }
 }
+
 
 
 
