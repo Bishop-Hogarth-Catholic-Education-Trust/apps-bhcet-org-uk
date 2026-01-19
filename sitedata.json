@@ -1022,7 +1022,7 @@
       "name": "St Teresa's Catholic Primary School, Hartlepool",
       "code": "STPH",
       "ipRanges": [],
-      "staffOnly": true,
+      "staffOnly": false,
       "staffApps": ["stph-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stph-website","ms-onedrive","teams"]
     },
@@ -1038,12 +1038,13 @@
       "name": "St William's Catholic Academy",
       "code": "STW",
       "ipRanges": [],
-      "staffOnly": true,
+      "staffOnly": false,
       "staffApps": ["stw-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stw-website","ms-onedrive","teams"]
     }
   }
 }
+
 
 
 
