@@ -1,7 +1,7 @@
 {
   "metadata": {
     "appVersion": "1.0.3",
-    "dataVersion": "1.0.9-EXT"
+    "dataVersion": "1.0.10-EXT"
   },
   "apps": {
     "bromcom": {
@@ -445,6 +445,312 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "minimal"
+    },
+	"car-website": {
+      "name": "School Website",
+      "url": "https://carmel.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/car.png",
+      "description": "Carmel College Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stm-website": {
+      "name": "School Website",
+      "url": "https://stmichaels.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stm.png",
+      "description": "St Michael's Catholic Academy Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"olsb-website": {
+      "name": "School Website",
+      "url": "https://olsb.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/olsb.png",
+      "description": "Our Lady and St bede Catholic Academy (OLSB) Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"hfp-website": {
+      "name": "School Website",
+      "url": "https://holyfamily.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/hfp.png",
+      "description": "Holy Family School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"hr-website": {
+      "name": "School Website",
+      "url": "https://holyrosary.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/hr.png",
+      "description": "Our Lady of the Most Holy Rosary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"sta-website": {
+      "name": "School Website",
+      "url": "https://staugustines.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/sta.png",
+      "description": "St Augustine's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stb-website": {
+      "name": "School Website",
+      "url": "https://stbedesdarlington.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stb.png",
+      "description": "St Bede's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stbs-website": {
+      "name": "School Website",
+      "url": "https://stbedesstockton.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stbs.png",
+      "description": "St Bede's Catholic Academy School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stg-website": {
+      "name": "School Website",
+      "url": "https://stgregorys.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stg.png",
+      "description": "St Gregory's Catholic Academy School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjo-website": {
+      "name": "School Website",
+      "url": "https://stjohns.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjo.png",
+      "description": "St John's School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjte-website": {
+      "name": "School Website",
+      "url": "https://stjohnte.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjte.png",
+      "description": "St John The Evangelist Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjb-website": {
+      "name": "School Website",
+      "url": "https://stjosephsbillingham.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjb.png",
+      "description": "St Joseph's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjna-website": {
+      "name": "School Website",
+      "url": "https://stjosephsna.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjna.png",
+      "description": "St Joseph's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stp-website": {
+      "name": "School Website",
+      "url": "https://stteresasdarlington.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stp.png",
+      "description": "St Teresa's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stw-website": {
+      "name": "School Website",
+      "url": "https://stwilliams.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stw.png",
+      "description": "St William's Catholic Academy School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"shrt-website": {
+      "name": "School Website",
+      "url": "https://sacredheart.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/shrt.png",
+      "description": "Sacred Heart Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stbeg-website": {
+      "name": "School Website",
+      "url": "https://stbegas.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stbeg.png",
+      "description": "St Bega's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcd-website": {
+      "name": "School Website",
+      "url": "https://stchads.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stcd.png",
+      "description": "St Chad's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjh-website": {
+      "name": "School Website",
+      "url": "https://stjosephshartlepool.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjh.png",
+      "description": "St Joseph's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcbh-website": {
+      "name": "School Website",
+      "url": "https://stcuthbertshartlepool.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stcbh.png",
+      "description": "St Cuthbert's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stpks-website": {
+      "name": "School Website",
+      "url": "https://stpatricks.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stpks.png",
+      "description": "St Patrick's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcbs-website": {
+      "name": "School Website",
+      "url": "https://stcuthbertsstockton.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stcbs.png",
+      "description": "St Cuthbert's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"olst-website": {
+      "name": "School Website",
+      "url": "https://olst.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/olst.png",
+      "description": "Our Lady and St Thomas Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjc-website": {
+      "name": "School Website",
+      "url": "https://stjosephscoundon.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stjc.png",
+      "description": "St Joseph's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stch-website": {
+      "name": "School Website",
+      "url": "https://stcharles.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stch.png",
+      "description": "St Charles' Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"sjv-website": {
+      "name": "School Website",
+      "url": "https://sjv.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/sjv.png",
+      "description": "St John Vianney Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stwl-website": {
+      "name": "School Website",
+      "url": "https://stwilfrids.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stwl.png",
+      "description": "St Wilfrid's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcbc-website": {
+      "name": "School Website",
+      "url": "https://stcuthbertscrook.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stcbc.png",
+      "description": "St Cuthbert's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"bjd-website": {
+      "name": "School Website",
+      "url": "https://blessedjohnduckett.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/bjd.png",
+      "description": "Blessed John Duckett Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stmbc-website": {
+      "name": "School Website",
+      "url": "https://stmarysbc.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stmbc.png",
+      "description": "St Marys's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stmna-website": {
+      "name": "School Website",
+      "url": "https://stmarysna.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stmna.png",
+      "description": "St Marys's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stph-website": {
+      "name": "School Website",
+      "url": "https://stteresashartlepool.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stph.png",
+      "description": "St Teresa's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stj-website": {
+      "name": "School Website",
+      "url": "https://stjosephsnorton.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stj.png",
+      "description": "St Joseph's Catholic Academy School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stpa-website": {
+      "name": "School Website",
+      "url": "https://stpauls.bhcet.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stpa.png",
+      "description": "St Paul's Catholic Primary School Website",
+      "priority": 1,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -461,16 +767,16 @@
       "code": "BJD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["bjd-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["bjd-website","ms-onedrive","teams"]
     },
     "car": {
       "name": "Carmel College",
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
+      "studentApps": ["car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
       "name": "The English Martyrs Catholic School & Sixth Form College",
@@ -485,259 +791,260 @@
       "code": "HFP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["hfp-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["hfp-website","ms-onedrive","teams"]
     },
     "olsb": {
       "name": "Our Lady and St Bede Catholic Academy",
       "code": "OLSB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
-      "studentApps": ["ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["olsb-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
+      "studentApps": ["olsb-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "olst": {
       "name": "Our Lady and St Thomas Catholic Primary School",
       "code": "OLST",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["olst-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["olst-website","ms-onedrive","teams"]
     },
     "hr": {
       "name": "Our Lady Of The Most Holy Rosary Catholic Academy",
       "code": "HR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["hr-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["hr-website","ms-onedrive","teams"]
     },
     "shrt": {
       "name": "Sacred Heart Catholic Primary School",
       "code": "SHRT",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["shrt-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["shrt-website","ms-onedrive","teams"]
     },
     "sta": {
       "name": "St Augustine's Catholic Primary School",
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["sta-website","ms-onedrive","teams"]
     },
     "stb": {
       "name": "St Bede's Catholic Primary School, Darlington",
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stb-website","ms-onedrive","teams"]
     },
     "stbs": {
       "name": "St Bede's Catholic Academy, Stockton",
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
       "name": "St Chad's Catholic Primary School",
       "code": "STCD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stcd-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcd-website","ms-onedrive","teams"]
     },
     "stch": {
       "name": "St Charles' Catholic Primary School",
       "code": "STCH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stch-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stch-website","ms-onedrive","teams"]
     },
     "stcbc": {
       "name": "St Cuthbert's Catholic Primary School, Crook",
       "code": "STCBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stcbc-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcbc-website","ms-onedrive","teams"]
     },
     "stcbs": {
       "name": "St Cuthbert's Catholic Primary School, Stockton",
       "code": "STCBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stcbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcbc-website","ms-onedrive","teams"]
     },
     "stcbh": {
       "name": "St Cuthbert's Catholic Primary School, Hartlepool",
       "code": "STCBH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stcbh-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcbh-website","ms-onedrive","teams"]
     },
     "stg": {
       "name": "St Gregory's Catholic Academy",
       "code": "STG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stg-website","ms-onedrive","canva","kyp","educationmutual","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stg-website","ms-onedrive","teams"]
     },
     "stjo": {
       "name": "St John's Catholic School & Sixth Form College",
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
+      "staffApps": ["stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "studentApps": ["stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
       "code": "STJTE",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stjte-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjte-website","ms-onedrive","teams"]
     },
     "sjv": {
       "name": "St John Vianney Catholic Primary School",
       "code": "SJV",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["sjv-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["sjv-website","ms-onedrive","teams"]
     },
     "stjb": {
       "name": "St Joseph's Catholic Primary School, Billingham",
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
       "name": "St Joseph's Catholic Primary School, Coundon",
-      "code": "STC",
+      "code": "STJC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stjc-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjc-website","ms-onedrive","teams"]
     },
     "stjh": {
       "name": "St Joseph's Catholic Primary School, Hartlepool",
       "code": "STJH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stjh-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjh-website","ms-onedrive","teams"]
     },
     "stjna": {
       "name": "St Joseph's Catholic Primary School, Newton Aycliffe",
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stjna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
       "code": "STJ",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stj-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stj-website","ms-onedrive","teams"]
     },
     "stmbc": {
       "name": "St Mary's Catholic Primary School, Barnard Castle",
       "code": "STMBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stmbc-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stmbc-website","ms-onedrive","teams"]
     },
     "stmna": {
       "name": "St Mary's Catholic Primary School, Newton Aycliffe",
       "code": "STMNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stmna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stmna-website","ms-onedrive","teams"]
     },
     "stm": {
       "name": "St Michael's Catholic Academy",
       "code": "STM",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
-      "studentApps": ["ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["stm-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
+      "studentApps": ["stm-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "stpks": {
       "name": "St Patrick's Catholic Primary School",
       "code": "STPKS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stpks-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stpks-website","ms-onedrive","teams"]
     },
     "stpa": {
       "name": "St Paul's Catholic Primary School",
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stpa-website","ms-onedrive","teams"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stp-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stp-website","ms-onedrive","teams"]
     },
     "stph": {
       "name": "St Teresa's Catholic Primary School, Hartlepool",
       "code": "STPH",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stph-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stph-website","ms-onedrive","teams"]
     },
     "stwl": {
       "name": "St Wilfrid's Catholic Primary School",
       "code": "STWL",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stwl-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stwl-website","ms-onedrive","teams"]
     },
     "stw": {
       "name": "St William's Catholic Academy",
       "code": "STW",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["ms-onedrive","teams"]
+      "staffApps": ["stw-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stw-website","ms-onedrive","teams"]
     }
   }
 }
+
 
 
 
