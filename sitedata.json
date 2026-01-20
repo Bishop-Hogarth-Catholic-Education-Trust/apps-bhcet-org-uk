@@ -341,6 +341,7 @@
       "url": "https://app.knowyourpeople.co.uk/",
       "priority": 9,
       "audience": "staff",
+	  "description": "KYP First Advantage Know Your People",
       "listOnly": true,
       "displayMode": "full"
     },
@@ -1044,6 +1045,7 @@
     }
   }
 }
+
 
 
 
