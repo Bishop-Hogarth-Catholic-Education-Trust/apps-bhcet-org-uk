@@ -777,6 +777,15 @@
       "priority": 3,
       "audience": "both",
       "displayMode": "full"
+    },
+	"unifrog": {
+      "name": "Unifrog",
+      "url": "https://www.unifrog.org/sign-in",
+      "image": "https://apps.bhcet.org.uk/images/unifrog.png",
+      "description": "Helping students find their future",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -801,16 +810,16 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
-      "studentApps": ["languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
+      "studentApps": ["unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
       "name": "The English Martyrs Catholic School & Sixth Form College",
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
-      "studentApps": ["languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
+      "staffApps": ["unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "studentApps": ["unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
       "name": "Holy Family Catholic Primary School",
@@ -937,8 +946,8 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
+      "staffApps": ["unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "studentApps": ["unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -1070,6 +1079,7 @@
     }
   }
 }
+
 
 
 
