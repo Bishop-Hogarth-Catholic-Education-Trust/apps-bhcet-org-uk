@@ -786,6 +786,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"steplab": {
+      "name": "Steplab",
+      "url": "https://app.steplab.co/auth/login",
+      "image": "https://apps.bhcet.org.uk/images/steplab.png",
+      "description": "Professional Development Platform",
+      "priority": 9,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -818,7 +827,7 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "staffApps": ["steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
       "studentApps": ["email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
@@ -1079,6 +1088,7 @@
     }
   }
 }
+
 
 
 
