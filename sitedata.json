@@ -820,6 +820,23 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"seesaw-teacher": {
+      "name": "Seesaw",
+      "url": "https://app.seesaw.me/#/login?role=teacher",
+      "image": "https://apps.bhcet.org.uk/images/seesaw.png",
+      "description": "Boost student outcomes",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+	"seesaw-student": {
+      "name": "Seesaw",
+      "url": "https://app.seesaw.me/#/student/login",
+      "image": "https://apps.bhcet.org.uk/images/seesaw.png",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "minimal"
     }
   },
   "sites": {
@@ -924,8 +941,8 @@
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stbeg-website","ms-onedrive","teams"]
+      "staffApps": ["seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["seesaw-student","stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
       "name": "St Chad's Catholic Primary School",
@@ -1113,6 +1130,7 @@
     }
   }
 }
+
 
 
 
