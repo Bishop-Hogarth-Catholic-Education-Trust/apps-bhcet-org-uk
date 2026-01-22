@@ -871,6 +871,24 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stbeg-purplemash-teacher": {
+      "name": "Purple Mash",
+      "url": "https://www.purplemash.com/sch/stbegasts24#/portal/stbegasts24/teacher",
+      "image": "https://apps.bhcet.org.uk/images/purplemash.png",
+      "description": "Bring the whole curriculum to life",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+	"stbeg-purplemash-student": {
+      "name": "Purple Mash",
+      "url": "https://www.purplemash.com/sch/stbegasts24#/portal/stbegasts24/child",
+      "image": "https://apps.bhcet.org.uk/images/purplemash.png",
+      "description": "Bring the whole curriculum to life",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -975,8 +993,8 @@
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stbeg-ttrs-student","seesaw-student","stbeg-website","ms-onedrive","teams"]
+      "staffApps": ["stbeg-purplemash-teacher","ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbeg-purplemash-student","stbeg-ttrs-student","seesaw-student","stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
       "name": "St Chad's Catholic Primary School",
@@ -1164,6 +1182,7 @@
     }
   }
 }
+
 
 
 
