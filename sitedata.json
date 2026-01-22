@@ -821,6 +821,15 @@
       "audience": "staff",
       "displayMode": "full"
     },
+	"grammarsaurus": {
+      "name": "Grammarsaurus",
+      "url": "https://grammarsaurus.co.uk/portal/login/",
+      "image": "https://apps.bhcet.org.uk/images/grammarsaurus.png",
+      "description": "Grammarsaurus Curriculum including writing, spelling and reading.",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
 	"seesaw-teacher": {
       "name": "Seesaw",
       "url": "https://app.seesaw.me/#/login?role=teacher",
@@ -948,7 +957,7 @@
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["seesaw-student","stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
@@ -1137,6 +1146,7 @@
     }
   }
 }
+
 
 
 
