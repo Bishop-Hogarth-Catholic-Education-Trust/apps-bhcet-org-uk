@@ -811,6 +811,15 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"schoolrobins": {
+      "name": "School Robins",
+      "url": "https://edukeyapp.com/account/login",
+      "image": "https://apps.bhcet.org.uk/images/schoolrobins.png",
+      "description": "TES Round Robin Information Collation",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -971,7 +980,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjo-schoolcloudparentseve","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["schoolrobins","stjo-schoolcloudparentseve","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
@@ -1104,6 +1113,7 @@
     }
   }
 }
+
 
 
 
