@@ -795,6 +795,13 @@
       "priority": 9,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stjo-photocopyorderform": {
+      "name": "Photocopy Order Form",
+      "url": "https://forms.office.com/pages/responsepage.aspx?id=-OvlemCWl0mB-Fxg9M2FOKMJvBlhQwxLqfsKTOUXpTBUM1o2NkVFUE9VSDM4VzJSVUxEQURMTlRWUCQlQCN0PWcu&route=shorturl",
+      "description": "St John's Photocopy order form",
+      "audience": "staff",
+      "listOnly": true
     }
   },
   "sites": {
@@ -955,7 +962,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
@@ -1088,6 +1095,7 @@
     }
   }
 }
+
 
 
 
