@@ -1198,8 +1198,8 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stb-website","ms-onedrive","teams"]
+      "staffApps": ["tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
       "name": "St Bede's Catholic Academy, Stockton",
@@ -1403,6 +1403,7 @@
     }
   }
 }
+
 
 
 
