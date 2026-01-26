@@ -1058,6 +1058,15 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"classdojo": {
+      "name": "ClassDojo",
+      "url": "https://www.classdojo.com/en-gb/",
+      "image": "https://apps.bhcet.org.uk/images/classdojo.png",
+      "description": "Stay connected",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1314,8 +1323,8 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website","ms-onedrive","teams"]
+      "staffApps": ["classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website","ms-onedrive","teams"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
@@ -1351,6 +1360,7 @@
     }
   }
 }
+
 
 
 
