@@ -961,6 +961,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"ems-sparxmaths": {
+      "name": "Sparx Maths",
+      "url": "https://auth.sparx-learning.com/oauth2/auth?client_id=sparx-learning&hd=2a7a7ef7-1764-45cf-a579-a6ca15b3823b&p=1&redirect_uri=https%3A%2F%2Fapi.sparx-learning.com%2Foauth2%2Fcallback%2Fsparx&response_type=code&scope=openid+profile+email&state=tGSyVmCOUXlIGcORB8IO8-qeIC7G0vXASmpfvoCmKKcNq2jEITBi1Xwtn3wQOM-IukLy6uy3cX4PdbGQ1cc-ptiXiUF1Aj7zcbcdYHnBLOhuc27zxfu8so5SXXH56LLvro_crnovtqBsoiBSulnxHOH9YJ9QguFwXaPr89UOmxMco_FxZ1ocbgU1oHqhku_Ad7Jhr9EHnyaFh-jAF0eo0YwMh5L1yNByy3rnRAMoJqwliTM6sFSdq_dkIK2XgXAh_iWQqrPrEHbONw%3D%3D&ts=1769433477",
+      "image": "https://apps.bhcet.org.uk/images/sparxmaths.png",
+      "description": "Maths Online Learning Platform",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -993,8 +1002,8 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
-      "studentApps": ["ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
+      "staffApps": ["ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "studentApps": ["ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
       "name": "Holy Family Catholic Primary School",
@@ -1254,6 +1263,7 @@
     }
   }
 }
+
 
 
 
