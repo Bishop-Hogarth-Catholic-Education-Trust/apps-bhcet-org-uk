@@ -1031,6 +1031,15 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"tvms-charanga": {
+      "name": "Charanga",
+      "url": "https://www.tvmsinteractive.co.uk/site/log-in",
+      "image": "https://apps.bhcet.org.uk/images/charanga.png",
+      "description": "Music teaching and learning platform",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1287,8 +1296,8 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["seesaw-student","stpa-website","ms-onedrive","teams"]
+      "staffApps": ["tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["tvms-charanga","seesaw-student","stpa-website","ms-onedrive","teams"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
@@ -1324,6 +1333,7 @@
     }
   }
 }
+
 
 
 
