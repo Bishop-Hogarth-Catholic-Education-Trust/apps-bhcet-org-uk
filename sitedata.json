@@ -1076,6 +1076,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"phonicsplay": {
+      "name": "Phonics Play",
+      "url": "https://www.phonicsplay.co.uk/",
+      "image": "https://apps.bhcet.org.uk/images/phonicsplay.png",
+      "description": "Learning Resources",
+      "priority": 9,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1332,7 +1341,7 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stpa-purplemash","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["phonicsplay","stpa-purplemash","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stpa-purplemash","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website","ms-onedrive","teams"]
     },
     "stp": {
@@ -1369,6 +1378,7 @@
     }
   }
 }
+
 
 
 
