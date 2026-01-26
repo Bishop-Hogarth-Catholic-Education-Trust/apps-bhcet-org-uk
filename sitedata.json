@@ -995,6 +995,15 @@
       "description": "Swimphony",
       "audience": "staff",
       "listOnly": true
+    },
+	"nomoremarking": {
+      "name": "No More Marking",
+      "url": "https://www.nomoremarking.com/",
+      "image": "https://apps.bhcet.org.uk/images/nomoremarking.png",
+      "description": "AI-enhanced Comparative Judgement",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1171,7 +1180,7 @@
       "code": "SJV",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["tapestry-student","sjv-website","ms-onedrive","teams"]
     },
     "stjb": {
@@ -1288,6 +1297,7 @@
     }
   }
 }
+
 
 
 
