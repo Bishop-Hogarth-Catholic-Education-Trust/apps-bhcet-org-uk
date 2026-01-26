@@ -1004,6 +1004,24 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"glassessment-teacher": {
+      "name": "GL Assessment",
+      "url": "https://www.testwise.com/login",
+      "image": "https://apps.bhcet.org.uk/images/glassessment.png",
+      "description": "Support Pupil Progress. Testwise",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+	"glassessment-student": {
+      "name": "GL Assessment",
+      "url": "https://www.testwise.com/code",
+      "image": "https://apps.bhcet.org.uk/images/glassessment.png",
+      "description": "Support Pupil Progress. Testwise",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1180,8 +1198,8 @@
       "code": "SJV",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["tapestry-student","sjv-website","ms-onedrive","teams"]
+      "staffApps": ["glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["glassessment-student","tapestry-student","sjv-website","ms-onedrive","teams"]
     },
     "stjb": {
       "name": "St Joseph's Catholic Primary School, Billingham",
@@ -1297,6 +1315,7 @@
     }
   }
 }
+
 
 
 
