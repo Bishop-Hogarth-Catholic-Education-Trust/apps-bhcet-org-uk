@@ -1022,6 +1022,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"ruthmiskin": {
+      "name": "Ruth Miskin School Portal",
+      "url": "https://schools.ruthmiskin.com/slogin/",
+      "image": "https://apps.bhcet.org.uk/images/ruthmiskin.png",
+      "description": "Read Write Inc. Phonics",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1278,7 +1287,7 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stpa-website","ms-onedrive","teams"]
     },
     "stp": {
@@ -1315,6 +1324,7 @@
     }
   }
 }
+
 
 
 
