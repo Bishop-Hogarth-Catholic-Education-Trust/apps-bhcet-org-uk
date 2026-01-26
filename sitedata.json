@@ -803,15 +803,6 @@
       "audience": "staff",
       "listOnly": true
     },
-	"stjo-schoolcloudparentseve": {
-      "name": "School Cloud",
-      "url": "https://stjohnsrc.schoolcloud.co.uk/Auth/Teacher",
-      "image": "https://apps.bhcet.org.uk/images/schoolcloudparentseve.png",
-      "description": "Parents evening system bookings",
-      "priority": 8,
-      "audience": "staff",
-      "displayMode": "full"
-    },
 	"schoolrobins": {
       "name": "School Robins",
       "url": "https://edukeyapp.com/account/login",
@@ -934,6 +925,24 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "ems-roombooking": {
+      "name": "tes Room Booking",
+      "url": "https://englishmartyrs.roombookingsystem.co.uk/",
+      "image": "https://apps.bhcet.org.uk/images/tesroombooking.png",
+      "description": "tes Room Booking Schoolcloud",
+      "priority": 9,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stjo-parentseve": {
+      "name": "tes Parents Evening Booking",
+      "url": "https://stjohnsrc.schoolcloud.co.uk/Auth/Teacher",
+      "image": "https://apps.bhcet.org.uk/images/tesparentsevening.png",
+      "description": "tes Parents Evening Booking System Schoolcloud",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -966,7 +975,7 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "staffApps": ["ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
       "studentApps": ["educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
@@ -1094,7 +1103,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["intofilm","seneca","socialpilot","schoolrobins","stjo-schoolcloudparentseve","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
@@ -1227,6 +1236,7 @@
     }
   }
 }
+
 
 
 
