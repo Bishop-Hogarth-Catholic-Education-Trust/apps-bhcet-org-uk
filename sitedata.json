@@ -939,7 +939,7 @@
       "name": "tes Parents Evening Booking",
       "url": "https://stjohnsrc.schoolcloud.co.uk/Auth/Teacher",
       "image": "https://apps.bhcet.org.uk/images/tesparentsevening.png",
-      "description": "tes Parents Evening Booking System Schoolcloud",
+      "description": "tes Parents Evening Booking System School cloud",
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
@@ -1236,6 +1236,7 @@
     }
   }
 }
+
 
 
 
