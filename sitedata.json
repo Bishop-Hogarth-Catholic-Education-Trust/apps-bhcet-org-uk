@@ -1110,6 +1110,24 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stcd-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2cabd-d2ea-4f10-992d-881422724d17",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjo-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2c9eb-ab8f-4c90-b370-ed90cf44f008",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1222,8 +1240,8 @@
       "code": "STCD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stcd-website","ms-onedrive","teams"]
+      "staffApps": ["stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcd-acceleratedreader","stcd-website","ms-onedrive","teams"]
     },
     "stch": {
       "name": "St Charles' Catholic Primary School",
@@ -1270,8 +1288,8 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
+      "staffApps": ["stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "studentApps": ["stjo-acceleratedreader","seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -1403,6 +1421,7 @@
     }
   }
 }
+
 
 
 
