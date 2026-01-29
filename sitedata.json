@@ -1155,6 +1155,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stch-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2cacf-bba6-4971-8950-d408c31c9f93",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1275,8 +1284,8 @@
       "code": "STCH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stch-ttrs-student","mathletics","paintzapp","stch-website","ms-onedrive","teams"]
+      "staffApps": ["stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website","ms-onedrive","teams"]
     },
     "stcbc": {
       "name": "St Cuthbert's Catholic Primary School, Crook",
@@ -1448,6 +1457,7 @@
     }
   }
 }
+
 
 
 
