@@ -1146,6 +1146,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stch-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://play.ttrockstars.com/auth/school/student/22750",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1266,8 +1275,8 @@
       "code": "STCH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mathletics","paintzapp","stch-website","ms-onedrive","teams"]
+      "staffApps": ["ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stch-ttrs-student","mathletics","paintzapp","stch-website","ms-onedrive","teams"]
     },
     "stcbc": {
       "name": "St Cuthbert's Catholic Primary School, Crook",
@@ -1439,6 +1448,7 @@
     }
   }
 }
+
 
 
 
