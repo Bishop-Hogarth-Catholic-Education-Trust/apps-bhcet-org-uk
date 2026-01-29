@@ -293,7 +293,7 @@
       "url": "https://app.sampeople.co.uk/",
       "image": "https://apps.bhcet.org.uk/images/sampeople.png",
       "description": "HR Software For Schools, Academies & MATs",
-      "priority": 6,
+      "priority": 9,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -1520,6 +1520,7 @@
     }
   }
 }
+
 
 
 
