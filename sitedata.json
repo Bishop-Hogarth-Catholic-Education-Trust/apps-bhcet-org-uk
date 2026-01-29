@@ -1182,6 +1182,15 @@
       "priority": 3,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stb-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2c628-dacb-48ae-88b5-7116d9cde45c",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1270,8 +1279,8 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["tapestry-student","stb-website","ms-onedrive","teams"]
+      "staffApps": ["stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
       "name": "St Bede's Catholic Academy, Stockton",
@@ -1475,6 +1484,7 @@
     }
   }
 }
+
 
 
 
