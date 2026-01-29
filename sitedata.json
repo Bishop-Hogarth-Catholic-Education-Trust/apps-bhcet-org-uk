@@ -1191,6 +1191,24 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "readingplus-teacher": {
+      "name": "Reading Plus",
+      "url": "https://educator.readingplus.com/",
+      "image": "https://apps.bhcet.org.uk/images/readingplus.png",
+      "description": "Prepare Confident Lifelong Readers",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "readingplus-student": {
+      "name": "Reading Plus",
+      "url": "https://student.readingplus.com/",
+      "image": "https://apps.bhcet.org.uk/images/readingplus.png",
+      "description": "Prepare Confident Lifelong Readers",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1279,8 +1297,8 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
+      "staffApps": ["readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["readingplus-student","stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
       "name": "St Bede's Catholic Academy, Stockton",
@@ -1484,6 +1502,7 @@
     }
   }
 }
+
 
 
 
