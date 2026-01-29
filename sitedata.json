@@ -1209,6 +1209,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "car-accessit": {
+      "name": "Accessit Library",
+      "url": "https://uk.accessit.online/crm02/",
+      "image": "https://apps.bhcet.org.uk/images/accessit.png",
+      "description": "Accessit Learning Resource Centre (LRC)",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "minimal"
     }
   },
   "sites": {
@@ -1233,8 +1242,8 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
-      "studentApps": ["email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
+      "studentApps": ["car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
       "name": "The English Martyrs Catholic School & Sixth Form College",
@@ -1502,6 +1511,7 @@
     }
   }
 }
+
 
 
 
