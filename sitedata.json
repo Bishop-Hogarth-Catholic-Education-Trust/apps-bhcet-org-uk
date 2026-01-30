@@ -1252,6 +1252,24 @@
       "description": "Make stunning social posts, images, videos, flyers, and more with Adobe Express",
       "audience": "both",
       "listOnly": true
+    },
+	"stbs-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://app.mylogin.com/login/st-bede-s-catholic-academy-ts19-0dw",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stbs-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-bede-s-catholic-academy-ts19-0dw",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1348,8 +1366,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stbs-website","ms-onedrive","teams"]
+      "staffApps": ["readingplus-teacher","ttrs-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbs-mylogin","readingplus-student","stbs-ttrs-student""stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
@@ -1545,6 +1563,7 @@
     }
   }
 }
+
 
 
 
