@@ -1270,6 +1270,13 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stbs-mylogin-admin-linkonly": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-bede-s-catholic-academy-ts19-0dw/admin-password",
+      "description": "Super-fast single sign-on",
+      "audience": "staff",
+      "listOnly": true
     }
   },
   "sites": {
@@ -1366,7 +1373,7 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["readingplus-teacher","ttrs-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stbs-mylogin-admin-linkonly","readingplus-teacher","ttrs-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stbs-mylogin","readingplus-student","stbs-ttrs-student""stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
@@ -1563,6 +1570,7 @@
     }
   }
 }
+
 
 
 
