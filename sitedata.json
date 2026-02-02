@@ -1277,6 +1277,15 @@
       "description": "Super-fast single sign-on",
       "audience": "staff",
       "listOnly": true
+    },
+	"scratch": {
+      "name": "Scratch",
+      "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
+	  "image": "https://apps.bhcet.org.uk/images/scratch.png",
+      "description": "Block-based visual programming language",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1373,8 +1382,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stbs-mylogin-admin-linkonly","readingplus-teacher","ttrs-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stbs-mylogin","readingplus-student","stbs-ttrs-student","stbs-website","ms-onedrive","teams"]
+      "staffApps": ["scratch","stbs-mylogin-admin-linkonly","readingplus-teacher","ttrs-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["scratch","stbs-mylogin","readingplus-student","stbs-ttrs-student","stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
@@ -1570,6 +1579,7 @@
     }
   }
 }
+
 
 
 
