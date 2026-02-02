@@ -1286,6 +1286,24 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stcbc-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-cuthbert-s-catholic-primary-school-crook-dl15-9dn",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stj-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-academy-ts20-1hr",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1382,7 +1400,7 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["scratch","stbs-mylogin-admin-linkonly","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["scratch","stbs-mylogin","readingplus-student","stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
@@ -1414,8 +1432,8 @@
       "code": "STCBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stcbc-website","ms-onedrive","teams"]
+      "staffApps": ["stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcbc-mylogin","stcbc-website","ms-onedrive","teams"]
     },
     "stcbs": {
       "name": "St Cuthbert's Catholic Primary School, Stockton",
@@ -1502,8 +1520,8 @@
       "code": "STJ",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","stj-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stj-website","ms-onedrive","teams"]
+      "staffApps": ["stj-mylogin","adobeexpress","intofilm","socialpilot","stj-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stj-mylogin","stj-website","ms-onedrive","teams"]
     },
     "stmbc": {
       "name": "St Mary's Catholic Primary School, Barnard Castle",
@@ -1579,6 +1597,7 @@
     }
   }
 }
+
 
 
 
