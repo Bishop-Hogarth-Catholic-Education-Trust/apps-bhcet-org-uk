@@ -1304,6 +1304,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"car-prepdashboard": {
+      "name": "PREP",
+      "url": "https://carmelorg-my.sharepoint.com/:p:/g/personal/kmccann_carmel_bhcet_org_uk/IQCt0D9MXIvAR6e-yuBcpRGOAUqN68f3VXoVUtJ-uadQDm4?e=jXLaLt",
+      "image": "https://apps.bhcet.org.uk/images/car/prepdashboard.png",
+      "description": "Carmel College PREP Dashboard",
+      "priority": 5,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1328,7 +1337,7 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
+      "staffApps": ["car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
       "studentApps": ["adobeexpress","car-acceleratedreader","car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
@@ -1597,6 +1606,7 @@
     }
   }
 }
+
 
 
 
