@@ -1322,6 +1322,24 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stmna-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://play.ttrockstars.com/auth/school/student/43127",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "stmna-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2c82d-de40-465b-89b9-7c8ad8775eae",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1554,8 +1572,8 @@
       "code": "STMNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stmna-website","ms-onedrive","teams"]
+      "staffApps": ["stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stmna-acceleratedreader","stmna-ttrs-student","stmna-website","ms-onedrive","teams"]
     },
     "stm": {
       "name": "St Michael's Catholic Academy",
@@ -1615,6 +1633,7 @@
     }
   }
 }
+
 
 
 
