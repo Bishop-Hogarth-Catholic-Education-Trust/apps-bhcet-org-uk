@@ -309,11 +309,10 @@
     "myhr": {
       "name": "MyHR (Xentrall)",
       "url": "https://xentrall.hcm.zellis.com/myview/dashboard-ui/index.html#/landing",
-      "image": "https://picsum.photos/id/3/128/128",
+      "image": "https://apps.bhcet.org.uk/images/myhr.png",
       "description": "View your payslips",
-      "priority": 6,
+      "priority": 8,
       "audience": "staff",
-      "listOnly": true,
       "displayMode": "full"
     },
     "affinityhub": {
@@ -1669,6 +1668,7 @@
     }
   }
 }
+
 
 
 
