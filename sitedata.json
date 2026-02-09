@@ -1340,6 +1340,42 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "sta-arbor": {
+      "name": "Arbor",
+      "url": "https://st-augustines-catholic-primary-school-139531.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stb-arbor": {
+      "name": "Arbor",
+      "url": "https://st-bedes-catholic-primary-school-138523.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stp-arbor": {
+      "name": "Arbor",
+      "url": "https://st-teresas-catholic-primary-school-146256.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "hfp-arbor": {
+      "name": "Arbor",
+      "url": "https://holy-family-catholic-primary-school-139533.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1380,7 +1416,7 @@
       "code": "HFP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["hfp-arbor","adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["hfp-website","ms-onedrive","teams"]
     },
     "olsb": {
@@ -1420,7 +1456,7 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["sta-website","ms-onedrive","teams"]
     },
     "stb": {
@@ -1428,7 +1464,7 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stb-arbor","adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["readingplus-student","stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
@@ -1604,7 +1640,7 @@
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stp-website","ms-onedrive","teams"]
     },
     "stph": {
@@ -1633,6 +1669,7 @@
     }
   }
 }
+
 
 
 
