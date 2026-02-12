@@ -3,6 +3,18 @@
     "appVersion": "1.0.3",
     "dataVersion": "1.0.11-EXT"
   },
+  "searchEngines": {
+    "google": {
+      "name": "Google",
+      "searchUrl": "https://www.google.com/search?q={query}",
+      "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+    },
+    "swiggle": {
+      "name": "Swiggle",
+      "searchUrl": "https://swiggle.org.uk/?q={query}",
+      "logo": "https://swiggle.org.uk/graphics/swiggle.svg"
+    }
+  },
   "apps": {
     "bromcom": {
       "name": "Bromcom",
@@ -1398,6 +1410,8 @@
       "code": "BJD",
       "ipRanges": [],
       "staffOnly": false,
+	  "staffSearchEngine": "google",
+      "studentSearchEngine": "google",	
       "staffApps": ["childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","bjd-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["bjd-website","ms-onedrive","teams"]
     },
@@ -1675,6 +1689,7 @@
     }
   }
 }
+
 
 
 
