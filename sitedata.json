@@ -6,7 +6,7 @@
   "searchEngines": {
     "google": {
       "name": "Google",
-      "searchUrl": "https://www.google.com/search?q={query}",
+      "searchUrl": "https://www.google.com/search?q={query}&safe=active",
       "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
     },
     "swiggle": {
@@ -1689,6 +1689,7 @@
     }
   }
 }
+
 
 
 
