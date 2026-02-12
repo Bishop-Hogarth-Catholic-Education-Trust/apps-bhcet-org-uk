@@ -646,6 +646,145 @@
             margin: 0 auto 32px;
         }
 
+        .web-search-option {
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .web-search-text {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .web-search-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 24px;
+            background: var(--card-bg);
+            border: 2px solid var(--accent);
+            border-radius: 12px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px var(--accent-glow);
+        }
+
+        .web-search-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--accent-glow);
+            background: linear-gradient(135deg, rgba(79, 159, 255, 0.1) 0%, rgba(0, 212, 170, 0.05) 100%);
+        }
+
+        /* Prominent web search styling */
+        .empty-state-icon-small {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 16px;
+            border-radius: 50%;
+            background: rgba(79, 159, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            opacity: 0.6;
+        }
+
+        .no-results-text {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 40px;
+            opacity: 0.8;
+        }
+
+        .web-search-prominent {
+            background: linear-gradient(135deg, rgba(79, 159, 255, 0.08) 0%, rgba(0, 212, 170, 0.05) 100%);
+            border: 2px solid var(--accent);
+            border-radius: 16px;
+            padding: 40px 32px;
+            max-width: 500px;
+            margin: 0 auto;
+            animation: fadeInUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+        }
+
+        .web-search-prominent h2 {
+            font-family: 'Manrope', sans-serif;
+            font-size: 28px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+            font-weight: 700;
+        }
+
+        .web-search-subtitle {
+            color: var(--text-secondary);
+            font-size: 16px;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .web-search-button-large {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            padding: 18px 32px;
+            background: var(--accent);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px var(--accent-glow);
+            width: 100%;
+            justify-content: center;
+        }
+
+        .web-search-button-large:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px var(--accent-glow);
+            background: #3d8fe8;
+        }
+
+        .web-search-button-large .search-button-text {
+            font-weight: 600;
+        }
+
+        .web-search-button-large .external-icon {
+            color: white;
+            font-size: 20px;
+            margin-left: 8px;
+        }
+
+        .search-engine-logo {
+            height: 24px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .search-engine-logo-large {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .external-icon {
+            font-size: 18px;
+            color: var(--accent);
+            margin-left: 4px;
+        }
+
         /* Alphabetical Apps List */
         .apps-list-container {
             margin-top: 80px;
@@ -1240,6 +1379,19 @@
             .apps-list-letter {
                 font-size: 16px;
             }
+
+            .web-search-prominent {
+                padding: 32px 20px;
+            }
+
+            .web-search-prominent h2 {
+                font-size: 24px;
+            }
+
+            .web-search-button-large {
+                font-size: 16px;
+                padding: 16px 24px;
+            }
         }
     </style>
     
@@ -1295,7 +1447,7 @@
                             type="text" 
                             id="appSearch" 
                             class="search-input" 
-                            placeholder="Search apps..."
+                            placeholder="Search..."
                             autocomplete="off"
                         />
                         <span class="search-icon">🔍</span>
@@ -1343,11 +1495,11 @@
             </div>
             <div class="display-mode-selector">
                 <label class="mode-option">
-                    <input type="radio" name="displayMode" value="full" checked>
+                    <input type="radio" name="displayMode" value="full">
                     <span>Full</span>
                 </label>
                 <label class="mode-option">
-                    <input type="radio" name="displayMode" value="minimal">
+                    <input type="radio" name="displayMode" value="minimal" checked>
                     <span>Minimal</span>
                 </label>
                 <label class="mode-option">
@@ -1434,6 +1586,7 @@
         // displayMode: 'full' (name+desc), 'minimal' (name only), 'icon-only' (image only)
         let apps = {};
         let siteData = {};
+        let searchEngines = {};
 
         // Load apps and site data from JSON file
         async function loadSiteData() {
@@ -1445,6 +1598,7 @@
                 const data = await response.json();
                 apps = data.apps || {};
                 siteData = data.sites || {};
+                searchEngines = data.searchEngines || {};
                 
                 // Populate siteConfig with loaded data
                 Object.keys(siteData).forEach(siteKey => {
@@ -1457,7 +1611,9 @@
                         hidden: site.hidden || false,
                         parent: site.parent || null,
                         staffApps: site.staffApps || [],
-                        studentApps: site.studentApps || []
+                        studentApps: site.studentApps || [],
+                        staffSearchEngine: site.staffSearchEngine || 'google',
+                        studentSearchEngine: site.studentSearchEngine || 'google'
                     };
                     
                     // Log IP ranges for debugging
@@ -1533,12 +1689,12 @@
         let currentSite = null;
         let detectedIP = null;
         let currentAudience = 'student'; // Default audience is now student
-        let currentDisplayMode = 'full'; // Track current display mode: 'full', 'minimal', 'icon-only'
+        let currentDisplayMode = 'minimal'; // Track current display mode: 'full', 'minimal', 'icon-only'
         let currentAppsList = []; // Store current apps list for re-rendering
         let currentSearchTerm = ''; // Current search/filter term
         let urlParams = new URLSearchParams(window.location.search);
         let viewOptions = {
-            hideDescriptions: false,
+            hideDescriptions: true,  // Default is now minimal mode
             hideNames: false,
             specificApps: null
         };
@@ -1598,12 +1754,13 @@
                 params.set('audience', 'staff');
             }
 
-            // Add view parameter based on display mode (if not default 'full')
-            if (currentDisplayMode === 'minimal') {
-                params.set('view', 'minimal');
+            // Add view parameter based on display mode (if not default 'minimal')
+            if (currentDisplayMode === 'full') {
+                params.set('view', 'full');
             } else if (currentDisplayMode === 'icon-only') {
                 params.set('view', 'icons-only');
             }
+            // Don't add parameter for 'minimal' as it's the default
 
             // Add specific apps parameter if set
             if (viewOptions.specificApps) {
@@ -1833,6 +1990,29 @@
             return false;
         }
 
+        // Get the current search engine for the active site and audience
+        function getCurrentSearchEngine() {
+            // Default Google search engine
+            const defaultEngine = {
+                name: "Google",
+                searchUrl: "https://www.google.com/search?q={query}",
+                logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+            };
+
+            // If no site selected, return default
+            if (!currentSite || !siteConfig[currentSite]) {
+                return defaultEngine;
+            }
+
+            // Get the search engine key for current audience
+            const searchEngineKey = currentAudience === 'staff' 
+                ? siteConfig[currentSite].staffSearchEngine 
+                : siteConfig[currentSite].studentSearchEngine;
+
+            // Return the configured search engine or default
+            return searchEngines[searchEngineKey] || defaultEngine;
+        }
+
         // Parse URL parameters for customization
         function parseURLParameters() {
             // audience parameter: ?audience=staff or ?audience=student
@@ -1843,7 +2023,7 @@
             }
             // Default is already 'student', so no else needed
 
-            // view parameter: ?view=minimal or ?view=icons-only
+            // view parameter: ?view=minimal or ?view=icons-only or ?view=full
             const viewParam = urlParams.get('view');
             if (viewParam === 'minimal') {
                 currentDisplayMode = 'minimal';
@@ -1852,11 +2032,26 @@
                 currentDisplayMode = 'icon-only';
                 viewOptions.hideDescriptions = true;
                 viewOptions.hideNames = true;
-            } else {
+            } else if (viewParam === 'full') {
                 currentDisplayMode = 'full';
+                viewOptions.hideDescriptions = false;
+                viewOptions.hideNames = false;
+            }
+            // If no view parameter, currentDisplayMode stays at default ('minimal')
+            
+            // Set view options based on current display mode
+            if (currentDisplayMode === 'minimal') {
+                viewOptions.hideDescriptions = true;
+                viewOptions.hideNames = false;
+            } else if (currentDisplayMode === 'icon-only') {
+                viewOptions.hideDescriptions = true;
+                viewOptions.hideNames = true;
+            } else if (currentDisplayMode === 'full') {
+                viewOptions.hideDescriptions = false;
+                viewOptions.hideNames = false;
             }
             
-            // Set the radio button to match URL parameter
+            // Set the radio button to match current display mode
             const radioButton = document.querySelector(`input[name="displayMode"][value="${currentDisplayMode}"]`);
             if (radioButton) {
                 radioButton.checked = true;
@@ -2318,11 +2513,20 @@
                 if (currentSearchTerm) {
                     // Only show "No Results Found" if there are NO matches anywhere (including list-only apps)
                     if (!hasAnyMatches) {
+                        const searchEngine = getCurrentSearchEngine();
+                        const searchUrl = searchEngine.searchUrl.replace('{query}', encodeURIComponent(currentSearchTerm));
+                        
                         container.innerHTML = `
                             <div class="empty-state">
-                                <div class="empty-state-icon">🔍</div>
-                                <h2>No Results Found</h2>
-                                <p>No applications match "${currentSearchTerm}". Try a different search term.</p>
+                                <div class="web-search-prominent">
+                                    <img src="${searchEngine.logo}" alt="${searchEngine.name}" class="search-engine-logo-large">
+                                    <h2>Search the web instead</h2>
+                                    <p class="web-search-subtitle">Find "${currentSearchTerm}" with ${searchEngine.name}</p>
+                                    <a href="${searchUrl}" target="_blank" rel="noopener noreferrer" class="web-search-button-large">
+                                        <span class="search-button-text">Search "${currentSearchTerm}"</span>
+                                        <span class="external-icon">↗</span>
+                                    </a>
+                                </div>
                             </div>
                         `;
                         return;
