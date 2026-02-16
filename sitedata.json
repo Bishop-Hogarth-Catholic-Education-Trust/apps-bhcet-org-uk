@@ -1394,6 +1394,15 @@
       "description": "Childcare Grant Payment Service",
       "audience": "staff",
       "listOnly": true
+    },
+	"tvtsh-website": {
+      "name": "TVTSH Website",
+      "url": "https://www.teesvalleytsh.co.uk/",
+      "description": "TVTSH Website",
+      "audience": "staff",
+	  "priority": 1,
+      "image": "https://apps.bhcet.org.uk/images/tvtsh.png",
+	  "displayMode": "minimal"
     }
   },
   "sites": {
@@ -1679,6 +1688,14 @@
       "staffApps": ["childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stwl-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stwl-website","ms-onedrive","teams"]
     },
+	"tvtsh": {
+      "name": "Tees Valley Teaching School Hub",
+      "code": "TVTSH",
+      "ipRanges": [],
+      "staffOnly": true,
+      "staffApps": ["tvtsh-website"],
+      "studentApps": []
+    },
     "stw": {
       "name": "St William's Catholic Academy",
       "code": "STW",
@@ -1689,6 +1706,7 @@
     }
   }
 }
+
 
 
 
