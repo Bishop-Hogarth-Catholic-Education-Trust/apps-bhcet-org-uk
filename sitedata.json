@@ -1403,6 +1403,15 @@
 	  "priority": 1,
       "image": "https://apps.bhcet.org.uk/images/tvtsh.png",
 	  "displayMode": "minimal"
+    },
+	"sta-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-augustine-s-catholic-primary-school-dl3-7hp",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1485,8 +1494,8 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["sta-website","ms-onedrive","teams"]
+      "staffApps": ["sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["sta-mylogin","sta-website","ms-onedrive","teams"]
     },
     "stb": {
       "name": "St Bede's Catholic Primary School, Darlington",
@@ -1706,6 +1715,7 @@
     }
   }
 }
+
 
 
 
