@@ -1412,6 +1412,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"typing-com-teacher": {
+      "name": "Typing.com",
+      "url": "https://teachers.typing.com/login",
+      "image": "https://apps.bhcet.org.uk/images/typing_com.png",
+      "description": "Learn to Type",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1494,7 +1503,7 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["sta-mylogin","sta-website","ms-onedrive","teams"]
     },
     "stb": {
@@ -1715,6 +1724,7 @@
     }
   }
 }
+
 
 
 
