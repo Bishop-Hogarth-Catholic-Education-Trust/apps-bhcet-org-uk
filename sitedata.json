@@ -1448,6 +1448,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stjb-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/1338e5d0-f1f9-4990-ac9d-d60c78463887",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1634,8 +1643,8 @@
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjb-website","ms-onedrive","teams"]
+      "staffApps": ["stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
       "name": "St Joseph's Catholic Primary School, Coundon",
@@ -1751,6 +1760,7 @@
     }
   }
 }
+
 
 
 
