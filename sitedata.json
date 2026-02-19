@@ -1421,6 +1421,33 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"doodlelearning-teacher": {
+      "name": "Doodle Learning",
+      "url": "https://teachers.typing.com/login",
+      "image": "https://apps.bhcet.org.uk/images/doodlelearning.png",
+      "description": "Bring Maths and English to life with DoodleLearning",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+	"doodlelearning-student": {
+      "name": "Doodle Learning",
+      "url": "https://students.doodlelearning.com/",
+      "image": "https://apps.bhcet.org.uk/images/doodlelearning.png",
+      "description": "Bring Maths and English to life with DoodleLearning",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"edshed": {
+      "name": "EdShed",
+      "url": "https://www.edshed.com/en-gb/login",
+      "image": "https://apps.bhcet.org.uk/images/edshed.png",
+      "description": "Phonics Shed, Spelling Shed, MathShed, The Literacy Shed, The Literacy Shed Plus and QuizShed",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1519,8 +1546,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["scratch","stbs-mylogin","readingplus-student","stbs-website","ms-onedrive","teams"]
+      "staffApps": ["edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
@@ -1724,6 +1751,7 @@
     }
   }
 }
+
 
 
 
