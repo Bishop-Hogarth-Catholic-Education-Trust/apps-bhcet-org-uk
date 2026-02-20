@@ -1721,8 +1721,8 @@
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjna-website","ms-onedrive","teams"]
+      "staffApps": ["paintzapp","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
@@ -1814,6 +1814,7 @@
     }
   }
 }
+
 
 
 
