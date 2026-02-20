@@ -1457,6 +1457,24 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stjb-numbots-student": {
+      "name": "Numbots",
+      "url": "https://play.numbots.com/#/account/school-login/25992",
+      "image": "https://apps.bhcet.org.uk/images/numbots.jpg",
+      "description": "Maths practice for schools and families.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "numbots-teacher": {
+      "name": "Numbots",
+      "url": "https://manage.numbots.com/",
+      "image": "https://apps.bhcet.org.uk/images/numbots.jpg",
+      "description": "Maths practice for schools and families.",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1643,8 +1661,8 @@
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
+      "staffApps": ["numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
       "name": "St Joseph's Catholic Primary School, Coundon",
@@ -1760,6 +1778,7 @@
     }
   }
 }
+
 
 
 
