@@ -1484,6 +1484,24 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stjb-lexiacore5": {
+      "name": "Lexia Core5 Reading",
+      "url": "https://www.lexiacore5.com/?SiteID=6604-0027-1664-4854",
+      "image": "https://apps.bhcet.org.uk/images/lexiacore5reading.png",
+      "description": "Reading Programme for Primary Schools",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"mylexia": {
+      "name": "myLexia",
+      "url": "https://auth.mylexia.com/mylexiaLogin",
+      "image": "https://apps.bhcet.org.uk/images/mylexia.png",
+      "description": "Educator Platform for Core5, PowerUp, and Lexia English",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1670,8 +1688,8 @@
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjb-ttrs-student","stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
+      "staffApps": ["mylexia","stjb-lexiacore5","ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjb-lexiacore5","stjb-ttrs-student","stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
       "name": "St Joseph's Catholic Primary School, Coundon",
@@ -1787,6 +1805,7 @@
     }
   }
 }
+
 
 
 
