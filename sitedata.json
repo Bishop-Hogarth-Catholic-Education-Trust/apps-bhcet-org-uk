@@ -1502,6 +1502,15 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stjb-purplemash": {
+      "name": "Purple Mash",
+      "url": "https://www.purplemash.com/sch/stjosephsts23#/",
+      "image": "https://apps.bhcet.org.uk/images/purplemash.png",
+      "description": "Bring the whole curriculum to life",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1688,8 +1697,8 @@
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylexia","stjb-lexiacore5","ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjb-lexiacore5","stjb-ttrs-student","stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
+      "staffApps": ["stjb-purplemash","mylexia","stjb-lexiacore5","ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjb-purplemash","stjb-lexiacore5","stjb-ttrs-student","stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
       "name": "St Joseph's Catholic Primary School, Coundon",
@@ -1805,6 +1814,7 @@
     }
   }
 }
+
 
 
 
