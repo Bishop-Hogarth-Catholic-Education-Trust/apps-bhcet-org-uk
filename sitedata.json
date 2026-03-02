@@ -1511,6 +1511,12 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"bromcom-linkonly": {
+      "name": "Bromcom",
+      "url": "https://cloudmis.bromcom.com",
+	  "audience": "staff",
+	  "listOnly": true
     }
   },
   "sites": {
@@ -1537,7 +1543,7 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
+      "staffApps": ["car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
       "studentApps": ["adobeexpress","car-acceleratedreader","car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
@@ -1545,7 +1551,7 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","reviseonline","ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
+      "staffApps": ["adobeexpress","reviseonline","ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
       "studentApps": ["adobeexpress","ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
@@ -1553,7 +1559,7 @@
       "code": "HFP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","hfp-arbor","adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["childcaregrantpaymentservice","hfp-arbor","adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["hfp-website","ms-onedrive","teams"]
     },
     "olsb": {
@@ -1561,7 +1567,7 @@
       "code": "OLSB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["olsb-parentseve","adobeexpress","reviseonline","olsb-acceleratedreader","intofilm","socialpilot","languagenut","olsb-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
+      "staffApps": ["olsb-parentseve","adobeexpress","reviseonline","olsb-acceleratedreader","intofilm","socialpilot","languagenut","olsb-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
       "studentApps": ["adobeexpress","olsb-acceleratedreader","email","languagenut","olsb-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "olst": {
@@ -1593,7 +1599,7 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["sta-mylogin","sta-website","ms-onedrive","teams"]
     },
     "stb": {
@@ -1601,7 +1607,7 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","stb-arbor","adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["childcaregrantpaymentservice","stb-arbor","adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["readingplus-student","stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
@@ -1673,7 +1679,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","reviseonline","stjo-landingpage","stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["adobeexpress","reviseonline","stjo-landingpage","stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","educationmutual","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["adobeexpress","stjo-acceleratedreader","seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
@@ -1753,7 +1759,7 @@
       "code": "STM",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
+      "staffApps": ["adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
       "studentApps": ["adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "stpks": {
@@ -1777,7 +1783,7 @@
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","educationmutual","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stp-website","ms-onedrive","teams"]
     },
     "stph": {
@@ -1814,106 +1820,3 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
