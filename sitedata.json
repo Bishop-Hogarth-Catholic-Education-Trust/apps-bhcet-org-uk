@@ -1280,7 +1280,7 @@
       "listOnly": true
     },
 	"scratch": {
-      "name": "Scratch",
+      "name": "Scratch (Web)",
       "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
 	  "image": "https://apps.bhcet.org.uk/images/scratch.png",
       "description": "Block-based visual programming language",
@@ -1834,6 +1834,7 @@
     }
   }
 }
+
 
 
 
