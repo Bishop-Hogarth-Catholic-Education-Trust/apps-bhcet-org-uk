@@ -1528,7 +1528,7 @@
       "url": "https://www.j2e.com/jit5",
 	  "image": "https://apps.bhcet.org.uk/images/j2eit.png",
       "description": "A complete set of online tools for reception and KS1",
-      "priority": 9,
+      "priority": 8,
       "audience": "both",
       "displayMode": "full"
     }
@@ -1834,6 +1834,7 @@
     }
   }
 }
+
 
 
 
