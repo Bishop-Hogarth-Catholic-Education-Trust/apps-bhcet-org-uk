@@ -1513,6 +1513,15 @@
       "url": "https://www.educationsupport.org.uk/",
 	  "audience": "staff",
 	  "listOnly": true
+    },
+	"scratch-jr": {
+      "name": "Scratch Jr (Web)",
+      "url": "https://codejr.org/scratchjr/index.html",
+	  "image": "https://apps.bhcet.org.uk/images/scratchjr.png",
+      "description": "Block-based visual programming language",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1611,8 +1620,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website","ms-onedrive","teams"]
+      "staffApps": ["scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website","ms-onedrive","teams"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
@@ -1723,8 +1732,8 @@
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educationsupport","paintzapp","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["paintzapp","stjna-website","ms-onedrive","teams"]
+      "staffApps": ["scratch-jr",scratch","educationsupport","paintzapp","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["scratch-jr",scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
@@ -1816,4 +1825,5 @@
     }
   }
 }
+
 
