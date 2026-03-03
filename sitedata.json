@@ -1522,6 +1522,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"jteit": {
+      "name": "Just2Easy Infant Toolkit",
+      "url": "https://www.j2e.com/jit5",
+	  "image": "https://apps.bhcet.org.uk/images/j2eit.png",
+      "description": "A complete set of online tools for reception and KS1",
+      "priority": 9,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1732,8 +1741,8 @@
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["scratch-jr",scratch","educationsupport","paintzapp","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["scratch-jr",scratch","paintzapp","stjna-website","ms-onedrive","teams"]
+      "staffApps": ["jteit","scratch-jr",scratch","educationsupport","paintzapp","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["jteit","scratch-jr",scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
@@ -1825,5 +1834,6 @@
     }
   }
 }
+
 
 
