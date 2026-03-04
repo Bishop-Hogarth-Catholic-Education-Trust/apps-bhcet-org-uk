@@ -1567,6 +1567,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stw-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://play.ttrockstars.com/auth/school/student/29372",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1865,11 +1874,12 @@
       "code": "STW",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stw-website","ms-onedrive","teams"]
+      "staffApps": ["ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stw-ttrs-student","stw-website","ms-onedrive","teams"]
     }
   }
 }
+
 
 
 
