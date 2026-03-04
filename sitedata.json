@@ -1603,6 +1603,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stw-numbots-student": {
+      "name": "Numbots",
+      "url": "https://play.numbots.com/#/account/school-login/29372",
+      "image": "https://apps.bhcet.org.uk/images/numbots.jpg",
+      "description": "Maths practice for schools and families.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1901,11 +1910,12 @@
       "code": "STW",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["lbq-staff","stw-acceleratedreader","ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["lbq-student","stw-acceleratedreader","stw-ttrs-student","stw-website","ms-onedrive","teams"]
+      "staffApps": ["numbots-teacher","edshed","lbq-staff","stw-acceleratedreader","ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stw-numbots-student","edshed","lbq-student","stw-acceleratedreader","stw-ttrs-student","stw-website","ms-onedrive","teams"]
     }
   }
 }
+
 
 
 
