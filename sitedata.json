@@ -1576,6 +1576,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stw-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2c831-8824-406c-b67c-29f63cbd49f7",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1874,21 +1883,11 @@
       "code": "STW",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stw-ttrs-student","stw-website","ms-onedrive","teams"]
+      "staffApps": ["stw-acceleratedreader","ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stw-acceleratedreader","stw-ttrs-student","stw-website","ms-onedrive","teams"]
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
