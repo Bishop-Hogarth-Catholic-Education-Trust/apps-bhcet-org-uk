@@ -1612,6 +1612,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+    "stm-sharepoint": {
+      "name": "St Michael's Staff Sharepoint Page",
+      "url": "https://carmelorg.sharepoint.com/sites/stmichaelsstaff/SitePages/DepartmentHome.aspx",
+      "image": "https://apps.bhcet.org.uk/images/schoollogos/stm.png",
+      "description": "SharPoint Landing Page",
+      "priority": 3,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1854,7 +1863,7 @@
       "code": "STM",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educationsupport","adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
+      "staffApps": ["stm-sharepoint","educationsupport","adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
       "studentApps": ["adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "stpks": {
@@ -1915,6 +1924,7 @@
     }
   }
 }
+
 
 
 
