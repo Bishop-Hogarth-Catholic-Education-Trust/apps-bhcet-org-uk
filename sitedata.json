@@ -1549,6 +1549,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"jtedatabase": {
+      "name": "Just2Easy Database",
+      "url": "https://www.j2e.com/database/",
+	  "image": "https://apps.bhcet.org.uk/images/j2database.png",
+      "description": "Easy Databases for KS1-KS3",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1760,7 +1769,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
+      "studentApps": ["jtedatabase","chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
@@ -1852,6 +1861,7 @@
     }
   }
 }
+
 
 
 
