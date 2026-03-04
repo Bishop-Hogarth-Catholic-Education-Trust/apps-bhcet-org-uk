@@ -1558,6 +1558,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"tinkercad": {
+      "name": "Tinkercad",
+      "url": "https://www.tinkercad.com/login",
+	  "image": "https://apps.bhcet.org.uk/images/tinkercad.png",
+      "description": "3D design, electronics, and coding",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1769,7 +1778,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["jtedatabase","chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
+      "studentApps": ["tinkercad","jtedatabase","chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
       "name": "St Joseph's Catholic Academy, Norton",
@@ -1861,6 +1870,7 @@
     }
   }
 }
+
 
 
 
