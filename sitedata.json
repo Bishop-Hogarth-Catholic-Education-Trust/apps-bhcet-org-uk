@@ -1414,7 +1414,7 @@
     },
 	"doodlelearning-teacher": {
       "name": "Doodle Learning",
-      "url": "https://teachers.doodlelearning.com/login",
+      "url": "https://teachers.doodlelearning.com/login/",
       "image": "https://apps.bhcet.org.uk/images/doodlelearning.png",
       "description": "Bring Maths and English to life with DoodleLearning",
       "priority": 8,
@@ -1843,6 +1843,7 @@
     }
   }
 }
+
 
 
 
