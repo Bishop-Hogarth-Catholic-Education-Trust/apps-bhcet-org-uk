@@ -1932,7 +1932,7 @@
       "code": "TVTSH",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["thepass-linkonly","tvtsh-website"],
+      "staffApps": ["tvtsh-website"],
       "studentApps": []
     },
     "stw": {
@@ -1945,6 +1945,7 @@
     }
   }
 }
+
 
 
 
