@@ -1,7 +1,7 @@
 {
   "metadata": {
     "appVersion": "1.0.4",
-    "dataVersion": "1.0.12-EXT"
+    "dataVersion": "1.0.14-EXT"
   },
   "searchEngines": {
     "google": {
@@ -1621,6 +1621,15 @@
       "priority": 3,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stp-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-teresa-s-catholic-primary-school-dl1-4nl",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1887,8 +1896,8 @@
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stp-website","ms-onedrive","teams"]
+      "staffApps": ["stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stp-mylogin","stp-website","ms-onedrive","teams"]
     },
     "stph": {
       "name": "St Teresa's Catholic Primary School, Hartlepool",
@@ -1924,6 +1933,7 @@
     }
   }
 }
+
 
 
 
