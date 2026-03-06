@@ -1702,6 +1702,15 @@
       "priority": 2,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stp-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://app.mylogin.com/login/st-teresa-s-catholic-primary-school-dl1-4nl",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1968,8 +1977,8 @@
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stp-mylogin","stp-website","ms-onedrive","teams"]
+      "staffApps": ["ttrs-teacher","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stp-ttrs-student","stp-mylogin","stp-website","ms-onedrive","teams"]
     },
     "stph": {
       "name": "St Teresa's Catholic Primary School, Hartlepool",
@@ -2005,6 +2014,7 @@
     }
   }
 }
+
 
 
 
