@@ -1735,6 +1735,33 @@
       "priority": 2,
       "audience": "staff",
       "displayMode": "full"
+    },
+    "stcd-arbor": {
+      "name": "Arbor",
+      "url": "https://st-chads-catholic-primary-school-witton-park.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stjc-arbor": {
+      "name": "Arbor",
+      "url": "https://st-josephs-catholic-primary-school-coundon.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stcbc-arbor": {
+      "name": "Arbor",
+      "url": "https://st-cuthberts-catholic-primary-school-crook.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1849,7 +1876,7 @@
       "code": "STCD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stcd-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcd-acceleratedreader","stcd-website","ms-onedrive","teams"]
     },
     "stch": {
@@ -1865,7 +1892,7 @@
       "code": "STCBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stcbc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcbc-mylogin","stcbc-website","ms-onedrive","teams"]
     },
     "stcbs": {
@@ -1929,7 +1956,7 @@
       "code": "STJC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stjc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjc-website","ms-onedrive","teams"]
     },
     "stjh": {
@@ -2038,5 +2065,6 @@
     }
   }
 }
+
 
 
