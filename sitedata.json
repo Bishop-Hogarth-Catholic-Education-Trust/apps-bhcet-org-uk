@@ -1717,6 +1717,24 @@
       "url": "https://saffron.global/SaffronSSI/#/login",
 	  "audience": "staff",
 	  "listOnly": true
+    },
+    "stmna-arbor": {
+      "name": "Arbor",
+      "url": "https://st-marys-catholic-primary-school-newton-aycliffe.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stjna-arbor": {
+      "name": "Arbor",
+      "url": "https://st-josephs-catholic-primary-school-143515.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -1927,7 +1945,7 @@
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stjna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["tinkercad","jtedatabase","chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
@@ -1951,7 +1969,7 @@
       "code": "STMNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stmna-acceleratedreader","stmna-ttrs-student","stmna-website","ms-onedrive","teams"]
     },
     "stm": {
@@ -2020,4 +2038,5 @@
     }
   }
 }
+
 
