@@ -1897,6 +1897,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"guardians-of-mathmatica": {
+      "name": "Guardians: Defenders of Mathematica",
+      "url": "https://www.bbc.co.uk/games/embed/guardians-mathematica?exitGameUrl=https%3A%2F%2Fbbc.com%2Fbitesize%2Farticles%2Fzn2y7nb",
+      "image": "https://apps.bhcet.org.uk/images/guardians_defenders_of_mathematica.png",
+      "description": "BBC - Play this game to practise your Key Stage 2 maths skills.",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2052,7 +2061,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["maths-co-uk","spag","readingplus-teacher","timestables-co-uk","ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["maths-co-uk","spag","readingplus-student","timestables-co-uk","stg-ttrs-student","letterjoin","stg-website","ms-onedrive","teams"]
+      "studentApps": ["guardians-of-mathmatica","maths-co-uk","spag","readingplus-student","timestables-co-uk","stg-ttrs-student","letterjoin","stg-website","ms-onedrive","teams"]
     },
     "stjo": {
       "name": "St John's Catholic School & Sixth Form College",
