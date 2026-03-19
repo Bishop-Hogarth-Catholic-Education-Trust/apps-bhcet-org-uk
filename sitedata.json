@@ -1861,6 +1861,15 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stg-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://play.ttrockstars.com/auth/school/student/20217",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2015,8 +2024,8 @@
       "code": "STG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["letterjoin","stg-website","ms-onedrive","teams"]
+      "staffApps": ["ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stg-ttrs-student","letterjoin","stg-website","ms-onedrive","teams"]
     },
     "stjo": {
       "name": "St John's Catholic School & Sixth Form College",
