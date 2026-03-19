@@ -1915,6 +1915,15 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"mathsbot-com-primary": {
+      "name": "MathsBot.com Primary",
+      "url": "https://mathsbot.com/primaryMenu",
+      "image": "https://apps.bhcet.org.uk/images/mathsbot.png",
+      "description": "Tools for Maths Teachers",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2069,7 +2078,7 @@
       "code": "STG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["corbettmathsprimary","maths-co-uk","spag","readingplus-teacher","timestables-co-uk","ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["mathsbot-com-primary","corbettmathsprimary","maths-co-uk","spag","readingplus-teacher","timestables-co-uk","ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["guardians-of-mathmatica","maths-co-uk","spag","readingplus-student","timestables-co-uk","stg-ttrs-student","letterjoin","stg-website","ms-onedrive","teams"]
     },
     "stjo": {
