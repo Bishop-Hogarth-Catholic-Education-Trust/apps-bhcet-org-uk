@@ -1942,6 +1942,60 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+    "shrt-arbor": {
+      "name": "Arbor",
+      "url": "https://sacred-heart-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "sjv-arbor": {
+      "name": "Arbor",
+      "url": "https://st-john-vianney-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stcbh-arbor": {
+      "name": "Arbor",
+      "url": "https://st-cuthberts-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stbeg-arbor": {
+      "name": "Arbor",
+      "url": "https://st-begas-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stjh-arbor": {
+      "name": "Arbor",
+      "url": "https://st-josephs-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "stph-arbor": {
+      "name": "Arbor",
+      "url": "https://st-teresas-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2016,7 +2070,7 @@
       "code": "SHRT",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["shrt-website","ms-onedrive","teams"]
     },
     "sta": {
@@ -2048,7 +2102,7 @@
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stbeg-acceleratedreader","intofilm","stbeg-purplemash-teacher","ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stbeg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stbeg-acceleratedreader","intofilm","stbeg-purplemash-teacher","ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stbeg-acceleratedreader","stbeg-purplemash-student","stbeg-ttrs-student","seesaw-student","stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
@@ -2088,7 +2142,7 @@
       "code": "STCBH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stcbh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcbh-website","ms-onedrive","teams"]
     },
     "stg": {
@@ -2120,7 +2174,7 @@
       "code": "SJV",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["glassessment-student","tapestry-student","sjv-website","ms-onedrive","teams"]
     },
     "stjb": {
@@ -2144,7 +2198,7 @@
       "code": "STJH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stjh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjh-website","ms-onedrive","teams"]
     },
     "stjna": {
@@ -2216,7 +2270,7 @@
       "code": "STPH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stph-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["stph-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stph-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stph-website","ms-onedrive","teams"]
     },
     "stwl": {
