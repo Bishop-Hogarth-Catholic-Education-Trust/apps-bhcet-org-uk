@@ -1996,6 +1996,15 @@
       "priority": 2,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stmna-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-newton-aycliffe-dl5-5np",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2230,8 +2239,8 @@
       "code": "STMNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["icompleat","stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stmna-acceleratedreader","stmna-ttrs-student","stmna-website","ms-onedrive","teams"]
+      "staffApps": ["stmna-mylogin","icompleat","stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stmna-mylogin","stmna-acceleratedreader","stmna-ttrs-student","stmna-website","ms-onedrive","teams"]
     },
     "stm": {
       "name": "St Michael's Catholic Academy",
