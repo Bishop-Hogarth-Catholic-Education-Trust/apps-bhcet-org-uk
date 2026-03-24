@@ -1692,6 +1692,7 @@
         let currentDisplayMode = 'minimal'; // Track current display mode: 'full', 'minimal', 'icon-only'
         let currentAppsList = []; // Store current apps list for re-rendering
         let currentSearchTerm = ''; // Current search/filter term
+        let currentWebSearchUrl = null; // Track web search URL when "Search the web" box is shown
         let urlParams = new URLSearchParams(window.location.search);
         let viewOptions = {
             hideDescriptions: true,  // Default is now minimal mode
@@ -1737,6 +1738,19 @@
 
             // Initial URL update
             updateCurrentUrl();
+        });
+
+        // Global Enter key handler for web search
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && currentWebSearchUrl) {
+                // Check if web search box is still visible
+                const webSearchBox = document.querySelector('.web-search-prominent');
+                if (webSearchBox) {
+                    // Open search in new tab
+                    window.open(currentWebSearchUrl, '_blank', 'noopener,noreferrer');
+                    e.preventDefault();
+                }
+            }
         });
 
         // Generate current URL with parameters
@@ -2471,6 +2485,9 @@
         function renderApps(appList) {
             const container = document.getElementById('appContainer');
             
+            // Clear web search URL (will be set if we show the web search box)
+            currentWebSearchUrl = null;
+            
             if (!appList || appList.length === 0) {
                 container.innerHTML = `
                     <div class="empty-state">
@@ -2529,6 +2546,10 @@
                                 </div>
                             </div>
                         `;
+                        
+                        // Store the search URL for Enter key handler
+                        currentWebSearchUrl = searchUrl;
+                        
                         return;
                     }
                     // If we have matches in list-only apps, show empty tile grid (apps will be in alphabetical list)
