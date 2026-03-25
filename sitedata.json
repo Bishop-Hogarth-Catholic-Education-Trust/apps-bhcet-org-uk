@@ -39,7 +39,7 @@
       "url": "https://docs.bromcom.com/",
       "description": "Bromcom Docs & Training",
       "listOnly": true,
-      "audience": "staff",
+      "audience": "staff"
     },
     "bromcom-status": {
       "name": "Bromcom Cloud Service Status",
