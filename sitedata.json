@@ -37,12 +37,9 @@
     "bromcom-docs": {
       "name": "Bromcom Help Centre",
       "url": "https://docs.bromcom.com/",
-      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
       "description": "Bromcom Docs & Training",
-      "priority": 4,
       "listOnly": true,
       "audience": "staff",
-      "displayMode": "full"
     },
     "bromcom-status": {
       "name": "Bromcom Cloud Service Status",
