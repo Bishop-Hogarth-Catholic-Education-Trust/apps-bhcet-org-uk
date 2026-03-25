@@ -2011,6 +2011,15 @@
       "priority": 9,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"sta-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/student/app/microsoft-365",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 2,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2094,7 +2103,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["typing-com-student","sta-mylogin","sta-website","ms-onedrive","teams"]
+      "studentApps": ["typing-com-student","sta-mylogin","sta-website","sta-student-m365"]
     },
     "stb": {
       "name": "St Bede's Catholic Primary School, Darlington",
