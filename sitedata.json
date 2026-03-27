@@ -28,11 +28,9 @@
     "bromcom-vision": {
       "name": "Bromcom Vision",
       "url": "https://vision.bromcom.com",
-      "image": "https://apps.bhcet.org.uk/images/bromcom.png",
+      "listOnly": true,
       "description": "Trust Management Information System",
-      "priority": 4,
-      "audience": "staff",
-      "displayMode": "full"
+      "audience": "staff"
     },
     "bromcom-docs": {
       "name": "Bromcom Help Centre",
