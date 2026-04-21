@@ -2044,6 +2044,15 @@
 	  "priority": 9,
 	  "image": "https://apps.bhcet.org.uk/images/mylifestyle.png",
 	  "description": "MyLifestyle Reward Gateway"
+    },
+	"stch-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-charles-catholic-primary-school-tudhoe-dl16-6sl",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2166,8 +2175,8 @@
       "code": "STCH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylifestyle","inventryworld","icompleat","saffron-linkonly","stch-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","soundswrite","stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website","ms-onedrive","teams"]
+      "staffApps": ["stch-mylogin","mylifestyle","inventryworld","icompleat","saffron-linkonly","stch-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","soundswrite","stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stch-mylogin","stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website","ms-onedrive","teams"]
     },
     "stcbc": {
       "name": "St Cuthbert's Catholic Primary School, Crook",
