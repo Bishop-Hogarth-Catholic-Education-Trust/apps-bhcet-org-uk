@@ -2010,15 +2010,6 @@
       "audience": "staff",
       "displayMode": "full"
     },
-	"mylogin-student-m365": {
-      "name": "Microsoft 365",
-      "url": "https://app.mylogin.com/student/app/microsoft-365",
-      "image": "https://apps.bhcet.org.uk/images/m365.png",
-      "description": "Email, Powerpoint, Word, Teams, OneDrive",
-      "priority": 2,
-      "audience": "student",
-      "displayMode": "full"
-    },
 	"onshape": {
       "name": "Onshape",
       "url": "https://englishmartyrs.onshape.com/",
@@ -2088,6 +2079,78 @@
       "description": "Prepare Confident Lifelong Readers",
       "priority": 8,
       "audience": "both",
+      "displayMode": "full"
+    },
+	"sta-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-augustine-s-catholic-primary-school-dl3-7hp",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stbs-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-bede-s-catholic-academy-ts19-0dw",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stch-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-charles-catholic-primary-school-tudhoe-dl16-6sl",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stcbc-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-cuthbert-s-catholic-primary-school-crook-dl15-9dn",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"sjv-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-john-vianney-catholic-primary-school-hartlepool-ts24-9pa",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stj-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-academy-ts20-1hr",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stmna-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-newton-aycliffe-dl5-5np",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stp-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-teresa-s-catholic-primary-school-dl1-4nl",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
       "displayMode": "full"
     }
   },
@@ -2172,7 +2235,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["typing-com-student","sta-mylogin","sta-website","mylogin-student-m365"]
+      "studentApps": ["typing-com-student","sta-mylogin","sta-website","sta-mylogin-student-m365"]
     },
     "stb": {
       "name": "St Bede's Catholic Primary School, Darlington",
@@ -2188,7 +2251,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["canva","mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
+      "studentApps": ["canva","stbs-mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
@@ -2212,7 +2275,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["stch-mylogin","mylifestyle","inventryworld","icompleat","saffron-linkonly","stch-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","soundswrite","stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mylogin-student-m365","stch-mylogin","stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website"]
+      "studentApps": ["stch-mylogin-student-m365","stch-mylogin","stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website"]
     },
     "stcbc": {
       "name": "St Cuthbert's Catholic Primary School, Crook",
@@ -2220,7 +2283,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","icompleat","stcbc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mylogin-student-m365","stcbc-mylogin","stcbc-website"]
+      "studentApps": ["stcbc-mylogin-student-m365","stcbc-mylogin","stcbc-website"]
     },
     "stcbs": {
       "name": "St Cuthbert's Catholic Primary School, Stockton",
@@ -2268,7 +2331,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","sjv-mylogin","inventryworld","sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["sjv-mylogin","glassessment-student","tapestry-student","sjv-website","mylogin-student-m365"]
+      "studentApps": ["sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
     },
     "stjb": {
       "name": "St Joseph's Catholic Primary School, Billingham",
@@ -2308,7 +2371,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","stj-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stj-mylogin","adobeexpress","intofilm","socialpilot","stj-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mylogin-student-m365","stj-mylogin","stj-website"]
+      "studentApps": ["stj-mylogin-student-m365","stj-mylogin","stj-website"]
     },
     "stmbc": {
       "name": "St Mary's Catholic Primary School, Barnard Castle",
@@ -2324,7 +2387,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","stmna-mylogin","icompleat","stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mylogin-student-m365","stmna-mylogin","stmna-acceleratedreader","stmna-ttrs-student","stmna-website"]
+      "studentApps": ["stmna-mylogin-student-m365","stmna-mylogin","stmna-acceleratedreader","stmna-ttrs-student","stmna-website"]
     },
     "stm": {
       "name": "St Michael's Catholic Academy",
@@ -2356,7 +2419,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["mylifestyle","inventryworld","icompleat","saffron-linkonly","ttrs-teacher","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["mylogin-student-m365","stp-ttrs-student","stp-mylogin","stp-website"]
+      "studentApps": ["stp-mylogin-student-m365","stp-ttrs-student","stp-mylogin","stp-website"]
     },
     "stph": {
       "name": "St Teresa's Catholic Primary School, Hartlepool",
