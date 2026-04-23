@@ -2053,6 +2053,42 @@
       "priority": 7,
       "audience": "both",
       "displayMode": "full"
+    },
+	"shrt-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/sacred-heart-catholic-primary-school-hartlepool-ts26-8nl",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 5,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"shrt-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://app.mylogin.com/login/sacred-heart-catholic-primary-school-hartlepool-ts26-8nl",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"shrt-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/sacred-heart-catholic-primary-school-hartlepool-ts26-8nl",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+    "shrt-readingplus-student": {
+      "name": "Reading Plus",
+      "url": "https://app.mylogin.com/login/sacred-heart-catholic-primary-school-hartlepool-ts26-8nl",
+      "image": "https://apps.bhcet.org.uk/images/readingplus.png",
+      "description": "Prepare Confident Lifelong Readers",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2127,8 +2163,8 @@
       "code": "SHRT",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["shrt-website","ms-onedrive","teams"]
+      "staffApps": ["shrt-mylogin","readingplus-teacher","ttrs-teacher","mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["shrt-readingplus-student","shrt-website","shrt-mylogin","shrt-ttrs-student","shrt-mylogin-student-m365"]
     },
     "sta": {
       "name": "St Augustine's Catholic Primary School",
