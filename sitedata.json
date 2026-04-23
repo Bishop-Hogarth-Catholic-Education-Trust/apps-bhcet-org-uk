@@ -2179,6 +2179,24 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stcbs-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-cuthbert-s-catholic-primary-school-stockton-ts18-3sy",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcbs-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-cuthbert-s-catholic-primary-school-stockton-ts18-3sy",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2317,8 +2335,8 @@
       "code": "STCBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylifestyle","inventryworld","stcbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stcbc-website","ms-onedrive","teams"]
+      "staffApps": ["stcbs-mylogon","mylifestyle","inventryworld","stcbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcbc-website","stcbs-mylogin-student-m365","stcbs-mylogon"]
     },
     "stcbh": {
       "name": "St Cuthbert's Catholic Primary School, Hartlepool",
