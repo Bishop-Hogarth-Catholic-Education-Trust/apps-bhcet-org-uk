@@ -2152,6 +2152,33 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"hr-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/our-lady-of-the-most-holy-rosary-catholic-academy-ts23-2bs",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"hr-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/our-lady-of-the-most-holy-rosary-catholic-academy-ts23-2bs",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+    "hr-numbots-student": {
+      "name": "Numbots",
+      "url": "https://app.mylogin.com/login/our-lady-of-the-most-holy-rosary-catholic-academy-ts23-2bs",
+      "image": "https://apps.bhcet.org.uk/images/numbots.jpg",
+      "description": "Maths practice for schools and families.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2218,8 +2245,8 @@
       "code": "HR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylifestyle","inventryworld","hr-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","hr-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["hr-website","ms-onedrive","teams"]
+      "staffApps": ["numbots-teacher","hr-mylogin","mylifestyle","inventryworld","hr-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","hr-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["hr-numbots-student","hr-mylogin-student-m365","hr-mylogin","hr-website"]
     },
     "shrt": {
       "name": "Sacred Heart Catholic Primary School",
