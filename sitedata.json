@@ -2250,8 +2250,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["canva","stbs-mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
+      "staffApps": ["ttrs-teacher","mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbs-ttrs-student","canva","stbs-mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
