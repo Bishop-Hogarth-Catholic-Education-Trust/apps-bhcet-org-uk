@@ -2197,6 +2197,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"impsoftware": {
+      "name": "IMP Planner",
+      "url": "https://www.impplanner.co.uk/",
+      "image": "https://apps.bhcet.org.uk/images/impsoftware.png",
+      "description": "Budget platform just for MATs",
+      "priority": 9,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2205,7 +2214,7 @@
       "code": "BHCET-Central",
       "ipRanges": [],
       "staffOnly": true,
-      "staffApps": ["mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress-linkonly","socialpilot","languagenut-listonly","yodeck","sisra-linkonly","ms-onedrive","trust-website","canva-listonly","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom-linkonly","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
+      "staffApps": ["impsoftware","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress-linkonly","socialpilot","languagenut-listonly","yodeck","sisra-linkonly","ms-onedrive","trust-website","canva-listonly","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","bromcom-linkonly","bromcom-vision","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","arbor-matmis","email","teams"],
       "studentApps": []
     },
     "bjd": {
