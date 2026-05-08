@@ -1064,9 +1064,9 @@
       "audience": "both",
       "displayMode": "full"
     },
-	"stpa-purplemash": {
+	"stpa-purplemash-student": {
       "name": "Purple Mash",
-      "url": "https://www.purplemash.com/sch/stpaulsts22#/",
+      "url": "https://app.mylogin.com/login/st-paul-s-catholic-primary-school-ts22-5lu",
       "image": "https://apps.bhcet.org.uk/images/purplemash.png",
       "description": "Bring the whole curriculum to life",
       "priority": 8,
@@ -2230,6 +2230,33 @@
       "priority": 1,
       "audience": "both",
       "displayMode": "icon-only"
+    },
+	"stpa-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-paul-s-catholic-primary-school-ts22-5lu",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stpa-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-paul-s-catholic-primary-school-ts22-5lu",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stpa-purplemash-teacher": {
+      "name": "Purple Mash",
+      "url": "https://www.purplemash.com/sch/stpaulsts22#/portal/stpaulsts22/teacher",
+      "image": "https://apps.bhcet.org.uk/images/purplemash.png",
+      "description": "Bring the whole curriculum to life",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2488,8 +2515,8 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","stpa-purplemash","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stpa-purplemash","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website","ms-onedrive","teams"]
+      "staffApps": ["stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
