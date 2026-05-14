@@ -2257,6 +2257,42 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"shrt-code-org-student": {
+      "name": "CODE - code.org",
+      "url": "https://app.mylogin.com/login/sacred-heart-catholic-primary-school-hartlepool-ts26-8nl",
+      "image": "https://apps.bhcet.org.uk/images/code_org.png",
+      "description": "Bring computer science and AI education to your classroom",
+      "priority": 8,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"code-org-teacher": {
+      "name": "CODE - code.org",
+      "url": "https://studio.code.org/users/sign_in",
+      "image": "https://apps.bhcet.org.uk/images/code_org.png",
+      "description": "Bring computer science and AI education to your classroom",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+	"kodable-student": {
+      "name": "Kodable",
+      "url": "https://game.kodable.com/",
+      "image": "https://apps.bhcet.org.uk/images/kodable.png",
+      "description": "Kodable is an award winning game to teach kids programming.",
+      "priority": 8,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"kodable-teacher": {
+      "name": "Kodable",
+      "url": "https://dashboard.kodable.com/login/",
+      "image": "https://apps.bhcet.org.uk/images/kodable.png",
+      "description": "Kodable is an award winning game to teach kids programming.",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2331,8 +2367,8 @@
       "code": "SHRT",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["governorhub-linkonly","shrt-mylogin","readingplus-teacher","ttrs-teacher","mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["shrt-readingplus-student","shrt-website","shrt-mylogin","shrt-ttrs-student","shrt-mylogin-student-m365"]
+      "staffApps": ["kodable-teacher","code-org-teacher","governorhub-linkonly","shrt-mylogin","readingplus-teacher","ttrs-teacher","mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["kodable-student","shrt-code-org-student","shrt-readingplus-student","shrt-website","shrt-mylogin","shrt-ttrs-student","shrt-mylogin-student-m365"]
     },
     "sta": {
       "name": "St Augustine's Catholic Primary School",
