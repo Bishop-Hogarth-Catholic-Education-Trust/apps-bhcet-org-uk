@@ -2311,6 +2311,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"googlesites": {
+      "name": "Google Sites",
+      "url": "https://sites.google.com",
+      "image": "https://apps.bhcet.org.uk/images/googlesites.png",
+      "description": "Drag-and-drop website builder",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2490,7 +2499,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["governorhub-linkonly","mylifestyle","sjv-mylogin","inventryworld","sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
+      "studentApps": ["googlesites","sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
     },
     "stjb": {
       "name": "St Joseph's Catholic Primary School, Billingham",
