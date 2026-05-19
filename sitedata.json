@@ -2293,6 +2293,24 @@
       "priority": 9,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"olst-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/our-lady-and-st-thomas-catholic-primary-school-willington-dl15-0pb",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"olst-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/our-lady-and-st-thomas-catholic-primary-school-willington-dl15-0pb",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2351,8 +2369,8 @@
       "code": "OLST",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","olst-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","olst-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["olst-website","ms-onedrive","teams"]
+      "staffApps": ["olst-mylogin","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","olst-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","olst-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["olst-mylogin-student-m365","olst-mylogin","olst-website","ms-onedrive","teams"]
     },
     "hr": {
       "name": "Our Lady Of The Most Holy Rosary Catholic Academy",
