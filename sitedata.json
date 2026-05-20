@@ -2338,6 +2338,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"libresoft-librarian": {
+      "name": "Libresoft Librarian",
+      "url": "https://library.libresoft.co.uk/",
+      "image": "https://apps.bhcet.org.uk/images/libresoftlibrarian.png",
+      "description": "School library software",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2596,8 +2605,8 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
+      "staffApps": ["libresoft-librarian","stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["libresoft-librarian","stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
