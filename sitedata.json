@@ -304,20 +304,20 @@
       "audience": "staff",
       "displayMode": "full"
     },
-    "copilot": {
-      "name": "Copilot Chat",
-      "url": "https://m365.cloud.microsoft/chat/",
-      "image": "https://apps.bhcet.org.uk/images/copilotchat.png",
-      "description": "AI chatbot made by Microsoft",
-      "priority": 6,
-      "audience": "staff",
-      "displayMode": "full"
-    },
     "copilotcreate": {
       "name": "Copilot Create",
       "url": "https://m365.cloud.microsoft/create",
       "image": "https://apps.bhcet.org.uk/images/copilotcreate.png",
       "description": "AI-powered visual and content generation tool",
+      "priority": 6,
+      "audience": "staff",
+      "displayMode": "full"
+    },
+    "copilot": {
+      "name": "Copilot Chat",
+      "url": "https://m365.cloud.microsoft/chat/",
+      "image": "https://apps.bhcet.org.uk/images/copilotchat.png",
+      "description": "AI chatbot made by Microsoft",
       "priority": 6,
       "audience": "staff",
       "displayMode": "full"
