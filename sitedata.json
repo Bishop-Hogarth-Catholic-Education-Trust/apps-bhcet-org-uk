@@ -306,7 +306,7 @@
     },
     "copilotcreate": {
       "name": "Copilot Create",
-      "url": "https://m365.cloud.microsoft/create",
+      "url": "https://m365.cloud.microsoft/create/",
       "image": "https://apps.bhcet.org.uk/images/copilotcreate.png",
       "description": "AI-powered visual and content generation tool",
       "priority": 6,
