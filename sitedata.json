@@ -2365,6 +2365,15 @@
       "priority": 9,
       "audience": "both",
       "displayMode": "full"
+    },
+	"copilotstudyandlearn": {
+      "name": "Copilot Study and Learn",
+      "url": "https://aka.ms/studyandlearn",
+      "image": "https://apps.bhcet.org.uk/images/copilotstudyandlearn.png",
+      "description": "Copilot Study and Learn",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2392,7 +2401,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly", "car-arbor","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","classcharts-staff","cpoms","ihasco","email"],
-      "studentApps": ["adobeexpress","car-acceleratedreader","car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
+      "studentApps": ["copilotstudyandlearn","adobeexpress","car-acceleratedreader","car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
       "name": "The English Martyrs Catholic School & Sixth Form College",
@@ -2400,7 +2409,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","onshape","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor","email"],
-      "studentApps": ["onshape","adobeexpress","ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
+      "studentApps": ["copilotstudyandlearn","onshape","adobeexpress","ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
       "name": "Holy Family Catholic Primary School",
@@ -2416,7 +2425,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","olsb-parentseve","adobeexpress","reviseonline","olsb-acceleratedreader","intofilm","socialpilot","languagenut","olsb-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
-      "studentApps": ["adobeexpress","olsb-acceleratedreader","email","languagenut","olsb-website","ms-onedrive","reviseonline","canva","teams"]
+      "studentApps": ["copilotstudyandlearn","adobeexpress","olsb-acceleratedreader","email","languagenut","olsb-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "olst": {
       "name": "Our Lady and St Thomas Catholic Primary School",
@@ -2528,7 +2537,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["digitaltheatreplus","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","stjo-landingpage","stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
-      "studentApps": ["digitaltheatreplus","adobeexpress","stjo-acceleratedreader","seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
+      "studentApps": ["copilotstudyandlearn","digitaltheatreplus","adobeexpress","stjo-acceleratedreader","seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
       "name": "St John The Evangelist Catholic Primary School",
@@ -2608,7 +2617,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["copilotcreate","stockton-family-help-point","stm-readingcloud","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stm-sharepoint","educationsupport","adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
-      "studentApps": ["stm-readingcloud","adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
+      "studentApps": ["copilotstudyandlearn","stm-readingcloud","adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "stpks": {
       "name": "St Patrick's Catholic Primary School",
