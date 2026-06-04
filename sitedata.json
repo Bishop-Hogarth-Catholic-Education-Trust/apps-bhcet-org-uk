@@ -2374,6 +2374,42 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"stjc-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-coundon-dl14-8nn",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjc-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-coundon-dl14-8nn",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stjc-ttrs-student": {
+      "name": "Times Tables Rock Stars",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-coundon-dl14-8nn",
+      "image": "https://apps.bhcet.org.uk/images/ttrs.jpg",
+      "description": "Multiplication & division solved",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "stjc-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-coundon-dl14-8nn",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2568,8 +2604,8 @@
       "code": "STJC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjc-website","ms-onedrive","teams"]
+      "staffApps": ["ttrs-teacher","stjc-mylogin","stjc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjc-acceleratedreader","stjc-ttrs-student","stjc-mylogin-student-m365","stjc-mylogin","stjc-website"]
     },
     "stjh": {
       "name": "St Joseph's Catholic Primary School, Hartlepool",
