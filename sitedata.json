@@ -2419,6 +2419,33 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"stmbc-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-barnard-castle-dl12-8jr",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stmbc-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-barnard-castle-dl12-8jr",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"stmbc-edshed-student": {
+      "name": "EdShed",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-barnard-castle-dl12-8jr",
+      "image": "https://apps.bhcet.org.uk/images/edshed.png",
+      "description": "Phonics Shed, Spelling Shed, MathShed, The Literacy Shed, The Literacy Shed Plus and QuizShed",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2645,8 +2672,8 @@
       "code": "STMBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stmbc-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stmbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stmbc-website","ms-onedrive","teams"]
+      "staffApps": ["edshed","stmbc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stmbc-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stmbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stmbc-edshed-student","stmbc-mylogin-student-m365","stmbc-mylogin","stmbc-website"]
     },
     "stmna": {
       "name": "St Mary's Catholic Primary School, Newton Aycliffe",
