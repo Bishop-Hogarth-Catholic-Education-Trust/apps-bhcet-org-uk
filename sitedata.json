@@ -2455,6 +2455,24 @@
       "priority": 4,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stcd-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-barnard-castle-dl12-8jr",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stcd-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-mary-s-catholic-primary-school-barnard-castle-dl12-8jr",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2569,8 +2587,8 @@
       "code": "STCD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcd-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stcd-acceleratedreader","stcd-website","ms-onedrive","teams"]
+      "staffApps": ["stcd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcd-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stcd-mylogin-student-m365","stcd-acceleratedreader","stcd-website","stcd-mylogin"]
     },
     "stch": {
       "name": "St Charles' Catholic Primary School",
