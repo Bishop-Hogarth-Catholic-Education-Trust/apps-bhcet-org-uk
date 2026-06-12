@@ -2473,6 +2473,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"classdojo-staff": {
+      "name": "ClassDojo",
+      "url": "https://teach.classdojo.com/#/oidc/login/microsoft",
+      "image": "https://apps.bhcet.org.uk/images/classdojo.png",
+      "description": "Stay connected",
+      "priority": 8,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2555,7 +2564,7 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["typing-com-student","sta-mylogin","sta-website","sta-mylogin-student-m365"]
     },
     "stb": {
