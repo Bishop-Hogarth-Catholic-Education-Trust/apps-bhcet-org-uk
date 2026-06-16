@@ -2482,6 +2482,33 @@
       "priority": 8,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"bjd-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-chad-s-catholic-primary-school-witton-park-dl14-0ep",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"bjd-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-chad-s-catholic-primary-school-witton-park-dl14-0ep",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
+    },
+	"bjd-acceleratedreader": {
+      "name": "Accelerated Reader",
+      "url": "https://login.renaissance.com/12d2cacf-2996-4a91-bb0a-3c30c562dacf",
+      "image": "https://apps.bhcet.org.uk/images/acceleratedreader.png",
+      "description": "Renaissance Reading Platform.",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2500,8 +2527,8 @@
       "staffOnly": false,
 	  "staffSearchEngine": "google",
       "studentSearchEngine": "google",	
-      "staffApps": ["copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","bjd-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","bjd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["bjd-website","ms-onedrive","teams"]
+      "staffApps": ["bjd-acceleratedreader","bjd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","bjd-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","bjd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["bjd-acceleratedreader","bjd-website","bjd-mylogin","bjd-mylogin-student-m365"]
     },
     "car": {
       "name": "Carmel College",
