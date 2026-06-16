@@ -2485,7 +2485,7 @@
     },
 	"bjd-mylogin": {
       "name": "MyLogin",
-      "url": "https://app.mylogin.com/login/st-chad-s-catholic-primary-school-witton-park-dl14-0ep",
+      "url": "https://app.mylogin.com/login/blessed-john-duckett-catholic-primary-school-tow-law-dl13-4au",
       "image": "https://apps.bhcet.org.uk/images/mylogin.png",
       "description": "Super-fast single sign-on",
       "priority": 7,
@@ -2494,7 +2494,7 @@
     },
 	"bjd-mylogin-student-m365": {
       "name": "Microsoft 365",
-      "url": "https://app.mylogin.com/login/st-chad-s-catholic-primary-school-witton-park-dl14-0ep",
+      "url": "https://app.mylogin.com/login/blessed-john-duckett-catholic-primary-school-tow-law-dl13-4au",
       "image": "https://apps.bhcet.org.uk/images/m365.png",
       "description": "Email, Powerpoint, Word, Teams, OneDrive",
       "priority": 6,
