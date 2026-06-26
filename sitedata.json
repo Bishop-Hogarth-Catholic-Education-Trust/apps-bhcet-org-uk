@@ -2527,6 +2527,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"stpa-lexiacore5": {
+      "name": "Lexia Core5 Reading",
+      "url": "https://www.lexiacore5.com/?SiteID=3685-2550-4106-6545",
+      "image": "https://apps.bhcet.org.uk/images/lexiacore5reading.png",
+      "description": "Reading Programme for Primary Schools",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2785,8 +2794,8 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["classdojo-staff","copilotcreate","libresoft-librarian","stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["libresoft-librarian","stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
+      "staffApps": ["stpa-lexiacore5","mylexia","classdojo-staff","copilotcreate","libresoft-librarian","stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stpa-lexiacore5","libresoft-librarian","stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
     },
     "stp": {
       "name": "St Teresa's Catholic Primary School, Darlington",
