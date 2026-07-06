@@ -2788,6 +2788,15 @@
       "description": "LGfL Free School Meal Eligibility Checker Parent Link",
       "audience": "staff",
       "listOnly": true
+    },
+	"theway": {
+      "name": "The Way",
+      "url": "https://theway.diocesehn.org.uk/",
+      "image": "https://apps.bhcet.org.uk/images/theway.png",
+      "description": "The Way - Diocese of Hexham and Newcastle Educational Resources Hub",
+      "priority": 5,
+      "audience": "staff",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2806,7 +2815,7 @@
       "staffOnly": false,
 	  "staffSearchEngine": "google",
       "studentSearchEngine": "google",	
-      "staffApps": ["bjd-lgflfsm-linkonly","lgflfsm-linkonly","bjd-acceleratedreader","bjd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","bjd-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","bjd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","bjd-lgflfsm-linkonly","lgflfsm-linkonly","bjd-acceleratedreader","bjd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","bjd-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","bjd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["bjd-acceleratedreader","bjd-website","bjd-mylogin","bjd-mylogin-student-m365"]
     },
     "car": {
@@ -2830,7 +2839,7 @@
       "code": "HFP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["hfp-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","hfp-arbor","adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","hfp-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","hfp-arbor","adobeexpress","intofilm","socialpilot","hfp-website","yodeck","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["hfp-website","ms-onedrive","teams"]
     },
     "olsb": {
@@ -2846,7 +2855,7 @@
       "code": "OLST",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["olst-lgflfsm-linkonly","lgflfsm-linkonly","olst-lexiacore5","mylexia","classdojo-staff","copilotcreate","olst-mylogin","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","olst-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","olst-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","olst-lgflfsm-linkonly","lgflfsm-linkonly","olst-lexiacore5","mylexia","classdojo-staff","copilotcreate","olst-mylogin","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","olst-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","olst-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["olst-lexiacore5","olst-mylogin-student-m365","olst-mylogin","olst-website","ms-onedrive","teams"]
     },
     "hr": {
@@ -2854,7 +2863,7 @@
       "code": "HR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["hr-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","numbots-teacher","hr-mylogin","mylifestyle","inventryworld","hr-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","hr-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","hr-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","numbots-teacher","hr-mylogin","mylifestyle","inventryworld","hr-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","hr-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["hr-numbots-student","hr-mylogin-student-m365","hr-mylogin","hr-website"]
     },
     "shrt": {
@@ -2862,7 +2871,7 @@
       "code": "SHRT",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["shrt-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","kodable-teacher","code-org-teacher","governorhub-linkonly","shrt-mylogin","readingplus-teacher","ttrs-teacher","mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","shrt-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","kodable-teacher","code-org-teacher","governorhub-linkonly","shrt-mylogin","readingplus-teacher","ttrs-teacher","mylifestyle","inventryworld","shrt-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","shrt-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["kodable-student","shrt-code-org-student","shrt-readingplus-student","shrt-website","shrt-mylogin","shrt-ttrs-student","shrt-mylogin-student-m365"]
     },
     "sta": {
@@ -2870,7 +2879,7 @@
       "code": "STA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["sta-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","sta-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","typing-com-teacher","sta-mylogin","childcaregrantpaymentservice","sta-arbor","adobeexpress","intofilm","socialpilot","sta-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["typing-com-student","sta-mylogin","sta-website","sta-mylogin-student-m365"]
     },
     "stb": {
@@ -2878,7 +2887,7 @@
       "code": "STB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stb-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stb-arbor","adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stb-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stb-arbor","adobeexpress","readingplus-teacher","stb-acceleratedreader","tapestry-teacher","intofilm","socialpilot","stb-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["readingplus-student","stb-acceleratedreader","tapestry-student","stb-website","ms-onedrive","teams"]
     },
     "stbs": {
@@ -2886,7 +2895,7 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","ttrs-teacher","mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","ttrs-teacher","mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stbs-ttrs-student","canva","stbs-mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
     },
     "stbeg": {
@@ -2894,7 +2903,7 @@
       "code": "STBEG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stbeg-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stbeg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stbeg-acceleratedreader","intofilm","stbeg-purplemash-teacher","ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stbeg-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stbeg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stbeg-acceleratedreader","intofilm","stbeg-purplemash-teacher","ttrs-teacher","grammarsaurus","socialpilot","seesaw-teacher","stbeg-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stbeg-acceleratedreader","stbeg-purplemash-student","stbeg-ttrs-student","seesaw-student","stbeg-website","ms-onedrive","teams"]
     },
     "stcd": {
@@ -2902,7 +2911,7 @@
       "code": "STCD",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stcd-lgflfsm-linkonly","lgflfsm-linkonly","stcd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcd-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stcd-lgflfsm-linkonly","lgflfsm-linkonly","stcd-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcd-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","stcd-acceleratedreader","intofilm","socialpilot","stcd-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcd-mylogin-student-m365","stcd-acceleratedreader","stcd-website","stcd-mylogin"]
     },
     "stch": {
@@ -2910,7 +2919,7 @@
       "code": "STCH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stch-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","stch-mylogin","mylifestyle","inventryworld","icompleat","saffron-linkonly","stch-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","soundswrite","stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stch-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","stch-mylogin","mylifestyle","inventryworld","icompleat","saffron-linkonly","stch-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","soundswrite","stch-acceleratedreader","ttrs-teacher","mathletics","topmarks","phonicsplay","paintzapp","intofilm","socialpilot","stch-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stch-mylogin-student-m365","stch-mylogin","stch-acceleratedreader","stch-ttrs-student","mathletics","paintzapp","stch-website"]
     },
     "stcbc": {
@@ -2918,7 +2927,7 @@
       "code": "STCBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stcbc-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcbc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stcbc-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stcbc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stcbc-mylogin","adobeexpress","intofilm","socialpilot","stcbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcbc-mylogin-student-m365","stcbc-mylogin","stcbc-website"]
     },
     "stcbs": {
@@ -2926,7 +2935,7 @@
       "code": "STCBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stcbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","stcbs-mylogin","mylifestyle","inventryworld","stcbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stcbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","stcbs-mylogin","mylifestyle","inventryworld","stcbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcbc-website","stcbs-mylogin-student-m365","stcbs-mylogin"]
     },
     "stcbh": {
@@ -2934,7 +2943,7 @@
       "code": "STCBH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stcbh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stcbh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stcbh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stcbh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stcbh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stcbh-website","ms-onedrive","teams"]
     },
     "stg": {
@@ -2942,7 +2951,7 @@
       "code": "STG",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stg-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","kapowprimary","tenten","mathsbot-com-primary","corbettmathsprimary","maths-co-uk","spag","readingplus-teacher","timestables-co-uk","ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stg-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","kapowprimary","tenten","mathsbot-com-primary","corbettmathsprimary","maths-co-uk","spag","readingplus-teacher","timestables-co-uk","ttrs-teacher","letterjoin","stg-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stg-website","ms-onedrive","canva","kyp","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["guardians-of-mathmatica","maths-co-uk","spag","readingplus-student","timestables-co-uk","stg-ttrs-student","letterjoin","stg-website","ms-onedrive","teams"]
     },
     "stjo": {
@@ -2958,7 +2967,7 @@
       "code": "STJTE",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjte-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjte-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjte-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stjte-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjte-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjte-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjte-website","ms-onedrive","teams"]
     },
     "sjv": {
@@ -2966,7 +2975,7 @@
       "code": "SJV",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["sjv-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","sjv-mylogin","inventryworld","sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","sjv-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","sjv-mylogin","inventryworld","sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["googlesites","sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
     },
     "stjb": {
@@ -2974,7 +2983,7 @@
       "code": "STJB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjb-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjb-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","stjb-purplemash","mylexia","stjb-lexiacore5","ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stjb-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjb-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","stjb-purplemash","mylexia","stjb-lexiacore5","ttrs-teacher","numbots-teacher","stjb-acceleratedreader","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjb-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjb-purplemash","stjb-lexiacore5","stjb-ttrs-student","stjb-numbots-student","stjb-acceleratedreader","stjb-website","ms-onedrive","teams"]
     },
     "stjc": {
@@ -2982,7 +2991,7 @@
       "code": "STJC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjc-lgflfsm-linkonly","lgflfsm-linkonly","stjc-acceleratedreader-staff","ttrs-teacher","stjc-mylogin","stjc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stjc-lgflfsm-linkonly","lgflfsm-linkonly","stjc-acceleratedreader-staff","ttrs-teacher","stjc-mylogin","stjc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjc-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjc-acceleratedreader","stjc-ttrs-student","stjc-mylogin-student-m365","stjc-mylogin","stjc-website"]
     },
     "stjh": {
@@ -2990,7 +2999,7 @@
       "code": "STJH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stjh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjh-website","ms-onedrive","teams"]
     },
     "stjna": {
@@ -2998,7 +3007,7 @@
       "code": "STJNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjna-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","stjna-mylogin","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stjna-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","stjna-mylogin","governorhub-linkonly","mylifestyle","inventryworld","icompleat","stjna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stjna-mylogin-student-m365","stjna-mylogin","tinkercad","jtedatabase","chromemusicexperiments","jteit","scratch-jr","scratch","paintzapp","stjna-website","ms-onedrive","teams"]
     },
     "stj": {
@@ -3006,7 +3015,7 @@
       "code": "STJ",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stj-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stj-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stj-mylogin","adobeexpress","intofilm","socialpilot","stj-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stj-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stj-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stj-mylogin","adobeexpress","intofilm","socialpilot","stj-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stj-mylogin-student-m365","stj-mylogin","stj-website"]
     },
     "stmbc": {
@@ -3014,7 +3023,7 @@
       "code": "STMBC",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stmbc-lgflfsm-linkonly","lgflfsm-linkonly","edshed","stmbc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stmbc-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stmbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stmbc-lgflfsm-linkonly","lgflfsm-linkonly","edshed","stmbc-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stmbc-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stmbc-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stmbc-edshed-student","stmbc-mylogin-student-m365","stmbc-mylogin","stmbc-website"]
     },
     "stmna": {
@@ -3022,7 +3031,7 @@
       "code": "STMNA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stmna-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stmna-mylogin","icompleat","stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stmna-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stmna-mylogin","icompleat","stmna-arbor","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","stmna-acceleratedreader","ttrs-teacher","adobeexpress","intofilm","socialpilot","stmna-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stmna-mylogin-student-m365","stmna-mylogin","stmna-acceleratedreader","stmna-ttrs-student","stmna-website"]
     },
     "stm": {
@@ -3038,7 +3047,7 @@
       "code": "STPKS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stpks-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stpks-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stpks-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stpks-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stpks-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stpks-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stpks-website","ms-onedrive","teams"]
     },
     "stpa": {
@@ -3046,7 +3055,7 @@
       "code": "STPA",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stpa-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","libresoft-librarian","stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stpa-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","libresoft-librarian","stpa-purplemash-teacher","stpa-mylogin","governorhub-linkonly","mylifestyle","inventryworld","stpa-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","mathmaticsshed-linkonly","topmarks","phonicsplay","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-teacher","ruthmiskin","intofilm","socialpilot","stpa-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["libresoft-librarian","stpa-mylogin-student-m365","stpa-mylogin","stpa-purplemash-student","classdojo","jumpstartjonny","oxfordowl","tvms-charanga","seesaw-student","stpa-website"]
     },
     "stp": {
@@ -3054,7 +3063,7 @@
       "code": "STP",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stp-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","ttrs-teacher","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stp-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","ttrs-teacher","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stp-mylogin","educationsupport","childcaregrantpaymentservice","stp-arbor","adobeexpress","intofilm","socialpilot","stp-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stp-mylogin-student-m365","stp-ttrs-student","stp-mylogin","stp-website"]
     },
     "stph": {
@@ -3062,7 +3071,7 @@
       "code": "STPH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stph-lgflfsm-linkonly","lgflfsm-linkonly","stph-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stph-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stph-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stph-lgflfsm-linkonly","lgflfsm-linkonly","stph-mylogin","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stph-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stph-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stph-mylogin-student-m365","stph-website","stph-mylogin"]
     },
     "stwl": {
@@ -3070,7 +3079,7 @@
       "code": "STWL",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stwl-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stwl-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stwl-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stwl-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stwl-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stwl-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stwl-website","ms-onedrive","teams"]
     },
 	"tvtsh": {
@@ -3086,7 +3095,7 @@
       "code": "STW",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stw-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stw-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","numbots-teacher","edshed","lbq-staff","stw-acceleratedreader","ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["theway","stw-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","stw-arbor","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","numbots-teacher","edshed","lbq-staff","stw-acceleratedreader","ttrs-teacher","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stw-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["stw-numbots-student","edshed","lbq-student","stw-acceleratedreader","stw-ttrs-student","stw-website","ms-onedrive","teams"]
     }
   }
