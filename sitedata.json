@@ -2976,7 +2976,7 @@
       "ipRanges": [],
       "staffOnly": false,
       "staffApps": ["theway","sjv-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","sjv-mylogin","inventryworld","sjv-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","glassessment-teacher","nomoremarking","swimphony-listonly","tapestry-teacher","intofilm","socialpilot","sjv-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["googlesites","sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
+      "studentApps": ["canva","googlesites","sjv-mylogin","glassessment-student","tapestry-student","sjv-website","sjv-mylogin-student-m365"]
     },
     "stjb": {
       "name": "St Joseph's Catholic Primary School, Billingham",
