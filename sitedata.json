@@ -2815,6 +2815,20 @@
       "priority": 9,
       "audience": "staff",
       "displayMode": "full"
+    },
+    "stjo-attendancecallfeedbackfillin": {
+      "name": "Attendance Call – Fill in form",
+      "url": "https://forms.cloud.microsoft/e/52m69WczCp",
+      "description": "Attendance Call Feedback – Fill in form",
+      "audience": "staff",
+	  "listOnly": true
+    },
+    "stjo-attendancecallfeedbackcollaboration": {
+      "name": "Attendance Call – Collaboration",
+      "url": "https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?subpage=design&FormId=-OvlemCWl0mB-Fxg9M2FOJnxHHVE9w9JlxgLLdwgdMRUNkVENTE0SlQ3RzlLTzZBTlEwQlZNRE80SS4u&Token=dacb1290a9764a96a7474e6d3a85a382",
+      "description": "Attendance Call Feedback – Collaboration",
+      "audience": "staff",
+	  "listOnly": true
     }
   },
   "sites": {
@@ -2977,7 +2991,7 @@
       "code": "STJO",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["stjo-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","digitaltheatreplus","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","stjo-landingpage","stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
+      "staffApps": ["stjo-attendancecallfeedbackcollaboration","stjo-attendancecallfeedbackfillin","stjo-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","digitaltheatreplus","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","stjo-landingpage","stjo-acceleratedreader","stjo-parentseve","intofilm","seneca","socialpilot","schoolrobins","stjo-photocopyorderform","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","sisra","ms-onedrive","google-classroom","google-drive","canva","kyp","affinityhub","myhr","classcharts-staff","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stjo-arbor","email"],
       "studentApps": ["copilotstudyandlearn","digitaltheatreplus","adobeexpress","stjo-acceleratedreader","seneca","email","unifrog","stjo-L4L","languagenut","stjo-website","stjo-accessit","ms-onedrive","google-classroom","google-drive","reviseonline","canva","teams","classcharts-student"]
     },
     "stjte": {
