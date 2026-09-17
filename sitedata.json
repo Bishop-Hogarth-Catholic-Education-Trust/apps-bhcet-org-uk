@@ -242,7 +242,7 @@
     },
     "arbor-matmis": {
       "name": "Arbor MAT MIS",
-      "url": "https://bishop-hogarth-catholic-education-trust.uk.arbor.education",
+      "url": "https://bishop-hogarth-catholic-education-trust.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "Trust Managment Information System",
       "priority": 2,
