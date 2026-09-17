@@ -195,6 +195,15 @@
       "audience": "both",
       "displayMode": "full"
     },
+    "car-arbor-staff": {
+      "name": "Arbor",
+      "url": "https://carmel-college.uk.arbor.education/azure-oauth/login",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - Carmel College",
+      "priority": 2,
+      "audience": "staff",
+      "displayMode": "full"
+    },
     "ems-arbor": {
       "name": "Arbor",
       "url": "https://english-martyrs-catholic-school-and-sixth-form-college.uk.arbor.education",
@@ -2864,7 +2873,7 @@
       "code": "CAR",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotteach","copilotstudyandlearn","car-6thdashboard","car-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams", "car-arbor","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "staffApps": ["copilotteach","copilotstudyandlearn","car-6thdashboard","car-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","car-prepdashboard","adobeexpress","car-parentseve","car-acceleratedreader","car-accessit","reviseonline","intofilm","socialpilot","unifrog","languagenut","car-website","yodeck","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams", "car-arbor-staff","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
       "studentApps": ["car-arbor","copilotstudyandlearn","adobeexpress","car-acceleratedreader","car-accessit","email","unifrog","languagenut","car-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "ems": {
