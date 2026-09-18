@@ -237,6 +237,15 @@
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - OLSB",
       "priority": 2,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "olsb-arbor-staff": {
+      "name": "Arbor",
+      "url": "https://our-lady-and-st-bede-catholic-academy.uk.arbor.education/azure-oauth/login",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - OLSB",
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -2915,8 +2924,8 @@
       "code": "OLSB",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotteach","copilotstudyandlearn","olsb-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","olsb-thehub","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","olsb-parentseve","adobeexpress","reviseonline","olsb-acceleratedreader","intofilm","socialpilot","languagenut","olsb-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor","email"],
-      "studentApps": ["copilotstudyandlearn","adobeexpress","olsb-acceleratedreader","email","languagenut","olsb-website","ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["copilotteach","copilotstudyandlearn","olsb-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","olsb-thehub","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","olsb-parentseve","adobeexpress","reviseonline","olsb-acceleratedreader","intofilm","socialpilot","languagenut","olsb-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","olsb-arbor-staff","email"],
+      "studentApps": ["olsb-arbor","copilotstudyandlearn","adobeexpress","olsb-acceleratedreader","email","languagenut","olsb-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "olst": {
       "name": "Our Lady and St Thomas Catholic Primary School",
