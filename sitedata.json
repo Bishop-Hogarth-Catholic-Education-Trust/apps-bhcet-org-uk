@@ -1393,7 +1393,7 @@
     },
     "sta-arbor": {
       "name": "Arbor",
-      "url": "https://st-augustines-catholic-primary-school-139531.uk.arbor.education/",
+      "url": "https://st-augustines-catholic-primary-school-139531.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - Carmel College",
       "priority": 2,
@@ -1402,7 +1402,7 @@
     },
     "stb-arbor": {
       "name": "Arbor",
-      "url": "https://st-bedes-catholic-primary-school-138523.uk.arbor.education/",
+      "url": "https://st-bedes-catholic-primary-school-138523.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - Carmel College",
       "priority": 2,
@@ -1411,7 +1411,7 @@
     },
     "stp-arbor": {
       "name": "Arbor",
-      "url": "https://st-teresas-catholic-primary-school-146256.uk.arbor.education/",
+      "url": "https://st-teresas-catholic-primary-school-146256.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - Carmel College",
       "priority": 2,
@@ -1420,7 +1420,7 @@
     },
     "hfp-arbor": {
       "name": "Arbor",
-      "url": "https://holy-family-catholic-primary-school-139533.uk.arbor.education/",
+      "url": "https://holy-family-catholic-primary-school-139533.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - Carmel College",
       "priority": 2,
@@ -1700,7 +1700,7 @@
     },
     "stw-arbor": {
       "name": "Arbor",
-      "url": "https://st-williams-catholic-primary-school-mis.uk.arbor.education/",
+      "url": "https://st-williams-catholic-primary-school-mis.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1709,7 +1709,7 @@
     },
     "olst-arbor": {
       "name": "Arbor",
-      "url": "https://our-lady-and-st-thomas-catholic-primary-school-willington.uk.arbor.education/",
+      "url": "https://our-lady-and-st-thomas-catholic-primary-school-willington.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1718,7 +1718,7 @@
     },
     "stmbc-arbor": {
       "name": "Arbor",
-      "url": "https://st-marys-catholic-primary-school-barnard-castle.uk.arbor.education/",
+      "url": "https://st-marys-catholic-primary-school-barnard-castle.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1727,7 +1727,7 @@
     },
     "bjd-arbor": {
       "name": "Arbor",
-      "url": "https://blessed-john-duckett-catholic-primary-school-tow-law.uk.arbor.education/",
+      "url": "https://blessed-john-duckett-catholic-primary-school-tow-law.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1736,7 +1736,7 @@
     },
     "stch-arbor": {
       "name": "Arbor",
-      "url": "https://st-charles-catholic-primary-school-tudhoe.uk.arbor.education/",
+      "url": "https://st-charles-catholic-primary-school-tudhoe.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1745,7 +1745,7 @@
     },
     "stwl-arbor": {
       "name": "Arbor",
-      "url": "https://st-wilfrids-catholic-primary-school-bishop-auckland.uk.arbor.education/",
+      "url": "https://st-wilfrids-catholic-primary-school-bishop-auckland.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1769,7 +1769,7 @@
     },
     "stmna-arbor": {
       "name": "Arbor",
-      "url": "https://st-marys-catholic-primary-school-newton-aycliffe.uk.arbor.education/",
+      "url": "https://st-marys-catholic-primary-school-newton-aycliffe.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1778,7 +1778,7 @@
     },
     "stjna-arbor": {
       "name": "Arbor",
-      "url": "https://st-josephs-catholic-primary-school-143515.uk.arbor.education/",
+      "url": "https://st-josephs-catholic-primary-school-143515.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1787,7 +1787,7 @@
     },
     "stcd-arbor": {
       "name": "Arbor",
-      "url": "https://st-chads-catholic-primary-school-witton-park.uk.arbor.education/",
+      "url": "https://st-chads-catholic-primary-school-witton-park.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1796,7 +1796,7 @@
     },
     "stjc-arbor": {
       "name": "Arbor",
-      "url": "https://st-josephs-catholic-primary-school-coundon.uk.arbor.education/",
+      "url": "https://st-josephs-catholic-primary-school-coundon.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1805,7 +1805,7 @@
     },
     "stcbc-arbor": {
       "name": "Arbor",
-      "url": "https://st-cuthberts-catholic-primary-school-crook.uk.arbor.education/",
+      "url": "https://st-cuthberts-catholic-primary-school-crook.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1823,7 +1823,7 @@
     },
     "stjte-arbor": {
       "name": "Arbor",
-      "url": "https://st-john-the-evangelist-catholic-primary-school.uk.arbor.education/",
+      "url": "https://st-john-the-evangelist-catholic-primary-school.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1832,7 +1832,7 @@
     },
     "stg-arbor": {
       "name": "Arbor",
-      "url": "https://st-gregorys-catholic-academy-primary.uk.arbor.education/",
+      "url": "https://st-gregorys-catholic-academy-primary.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1841,7 +1841,7 @@
     },
     "stjb-arbor": {
       "name": "Arbor",
-      "url": "https://st-josephs-catholic-primary-school-142736.uk.arbor.education/",
+      "url": "https://st-josephs-catholic-primary-school-142736.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1850,7 +1850,7 @@
     },
     "stpks-arbor": {
       "name": "Arbor",
-      "url": "https://st-patricks-catholic-primary-school-stockton.uk.arbor.education/",
+      "url": "https://st-patricks-catholic-primary-school-stockton.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1859,7 +1859,7 @@
     },
     "hr-arbor": {
       "name": "Arbor",
-      "url": "https://our-lady-of-the-most-holy-rosary-catholic-academy.uk.arbor.education/",
+      "url": "https://our-lady-of-the-most-holy-rosary-catholic-academy.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1868,7 +1868,7 @@
     },
     "stj-arbor": {
       "name": "Arbor",
-      "url": "https://st-josephs-catholic-academy-primary.uk.arbor.education/",
+      "url": "https://st-josephs-catholic-academy-primary.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1877,7 +1877,7 @@
     },
     "stcbs-arbor": {
       "name": "Arbor",
-      "url": "https://st-cuthberts-catholic-primary-school-stockton.uk.arbor.education/",
+      "url": "https://st-cuthberts-catholic-primary-school-stockton.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1886,7 +1886,7 @@
     },
     "stbs-arbor": {
       "name": "Arbor",
-      "url": "https://st-bedes-catholic-academy.uk.arbor.education/",
+      "url": "https://st-bedes-catholic-academy.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1895,7 +1895,7 @@
     },
     "stpa-arbor": {
       "name": "Arbor",
-      "url": "https://st-pauls-catholic-primary-school-142739.uk.arbor.education/",
+      "url": "https://st-pauls-catholic-primary-school-142739.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -1994,7 +1994,7 @@
     },
     "shrt-arbor": {
       "name": "Arbor",
-      "url": "https://sacred-heart-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://sacred-heart-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -2003,7 +2003,7 @@
     },
     "sjv-arbor": {
       "name": "Arbor",
-      "url": "https://st-john-vianney-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://st-john-vianney-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -2012,7 +2012,7 @@
     },
     "stcbh-arbor": {
       "name": "Arbor",
-      "url": "https://st-cuthberts-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://st-cuthberts-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -2021,7 +2021,7 @@
     },
     "stbeg-arbor": {
       "name": "Arbor",
-      "url": "https://st-begas-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://st-begas-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -2030,7 +2030,7 @@
     },
     "stjh-arbor": {
       "name": "Arbor",
-      "url": "https://st-josephs-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://st-josephs-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
@@ -2039,7 +2039,7 @@
     },
     "stph-arbor": {
       "name": "Arbor",
-      "url": "https://st-teresas-catholic-primary-school-hartlepool.uk.arbor.education/",
+      "url": "https://st-teresas-catholic-primary-school-hartlepool.uk.arbor.education/azure-oauth/login",
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System",
       "priority": 2,
