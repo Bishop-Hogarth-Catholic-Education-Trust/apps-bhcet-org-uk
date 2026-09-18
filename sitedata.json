@@ -246,6 +246,15 @@
       "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
       "description": "School Management System - STM",
       "priority": 2,
+      "audience": "both",
+      "displayMode": "full"
+    },
+    "stm-arbor-staff": {
+      "name": "Arbor",
+      "url": "https://st-michaels-catholic-academy.uk.arbor.education/azure-oauth/login",
+      "image": "https://apps.bhcet.org.uk/images/arbor-logo.png",
+      "description": "School Management System - STM",
+      "priority": 2,
       "audience": "staff",
       "displayMode": "full"
     },
@@ -3098,8 +3107,8 @@
       "code": "STM",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotteach","copilotstudyandlearn","stm-roombooking","stm-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","stockton-family-help-point","stm-readingcloud","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stm-sharepoint","educationsupport","adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor","email"],
-      "studentApps": ["copilotstudyandlearn","stm-readingcloud","adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
+      "staffApps": ["copilotteach","copilotstudyandlearn","stm-roombooking","stm-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","stockton-family-help-point","stm-readingcloud","governorhub-linkonly","mylifestyle","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","stm-sharepoint","educationsupport","adobeexpress","reviseonline","intofilm","socialpilot","languagenut","stm-website","ms-onedrive","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","stm-arbor-staff","email"],
+      "studentApps": ["stm-arbor","copilotstudyandlearn","stm-readingcloud","adobeexpress","email","languagenut","stm-website","ms-onedrive","reviseonline","canva","teams"]
     },
     "stpks": {
       "name": "St Patrick's Catholic Primary School",
