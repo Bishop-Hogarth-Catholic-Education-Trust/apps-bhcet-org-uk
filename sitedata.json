@@ -2883,6 +2883,24 @@
       "priority": 6,
       "audience": "staff",
       "displayMode": "full"
+    },
+	"stjh-mylogin": {
+      "name": "MyLogin",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-hartlepool-ts24-7ht",
+      "image": "https://apps.bhcet.org.uk/images/mylogin.png",
+      "description": "Super-fast single sign-on",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
+    },
+	"stjh-mylogin-student-m365": {
+      "name": "Microsoft 365",
+      "url": "https://app.mylogin.com/login/st-joseph-s-catholic-primary-school-hartlepool-ts24-7ht",
+      "image": "https://apps.bhcet.org.uk/images/m365.png",
+      "description": "Email, Powerpoint, Word, Teams, OneDrive",
+      "priority": 6,
+      "audience": "student",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -3085,8 +3103,8 @@
       "code": "STJH",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotteach","copilotstudyandlearn","theway","stjh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stjh-website","ms-onedrive","teams"]
+      "staffApps": ["stjh-mylogin","copilotteach","copilotstudyandlearn","theway","stjh-lgflfsm-linkonly","lgflfsm-linkonly","copilotcreate","governorhub-linkonly","mylifestyle","inventryworld","stjh-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","childcaregrantpaymentservice","adobeexpress","intofilm","socialpilot","stjh-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stjh-mylogin","stjh-website","stjh-mylogin-student-m365"]
     },
     "stjna": {
       "name": "St Joseph's Catholic Primary School, Newton Aycliffe",
