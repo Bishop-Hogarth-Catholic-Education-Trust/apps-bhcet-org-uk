@@ -2901,6 +2901,15 @@
       "priority": 6,
       "audience": "student",
       "displayMode": "full"
+    },
+	"stbs-scratch-student": {
+      "name": "Scratch (Web)",
+      "url": "https://app.mylogin.com/login/st-bede-s-catholic-academy-ts19-0dw",
+	  "image": "https://apps.bhcet.org.uk/images/scratch.png",
+      "description": "Block-based visual programming language",
+      "priority": 7,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2999,8 +3008,8 @@
       "code": "STBS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["copilotteach","copilotstudyandlearn","theway","stbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","ttrs-teacher","mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","scratch-jr","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
-      "studentApps": ["stbs-ttrs-student","canva","stbs-mylogin-student-m365","scratch-jr","edshed","doodlelearning-student","seesaw-student","scratch","stbs-mylogin","readingplus-student","stbs-website"]
+      "staffApps": ["copilotteach","copilotstudyandlearn","theway","stbs-lgflfsm-linkonly","lgflfsm-linkonly","classdojo-staff","copilotcreate","governorhub-linkonly","ttrs-teacher","mylifestyle","inventryworld","stbs-arbor","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","edshed","doodlelearning-teacher","seesaw-teacher","childcaregrantpaymentservice","scratch","stbs-mylogin","readingplus-teacher","adobeexpress","intofilm","socialpilot","stbs-website","ms-onedrive","canva","kyp","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","email"],
+      "studentApps": ["stbs-ttrs-student","canva","stbs-mylogin-student-m365","stbs-scratch-student","edshed","doodlelearning-student","seesaw-student","stbs-mylogin","readingplus-student","stbs-website"]
     },
     "stbeg": {
       "name": "St Bega's Catholic Primary School",
