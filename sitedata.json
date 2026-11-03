@@ -2919,6 +2919,15 @@
       "priority": 8,
       "audience": "both",
       "displayMode": "full"
+    },
+	"ems-sparxreader": {
+      "name": "Sparx Reader",
+      "url": "https://auth.sparx-learning.com/oauth2/auth?client_id=sparx-learning&hd=2a7a7ef7-1764-45cf-a579-a6ca15b3823b&p=2&redirect_uri=https%3A%2F%2Fapi.sparx-learning.com%2Foauth2%2Fcallback%2Fsparx&response_type=code&scope=openid+profile+email&state=7O0dAmcwk8tnJWlbTIfIfXzdbSXsET4Lz9hXhgVPd9ZkPegVM2DhEVGwFlwBscUPiiUvfb_kopzGJE08YwSkAxSkbOUvjSne41lCc1cn5bnls52KOP2W5G_jjyEPMZfsmSnZLpgFwUHEPEFvHLmZZT7ZTWkAVqzhQ_ZUSVq8UXMFRFKbWMJT0uJ0CNmbnVVLfrVw33PfWVfo5RcNlh69VmEsLvmWoJCa-sZkxZn8pwq2gIIiQnfPmgIMB2u_yTO1cQIsLdlAGCHyRbLV&ts=1791962068https://auth.sparx-learning.com/oauth2/auth?client_id=sparx-learning&hd=2a7a7ef7-1764-45cf-a579-a6ca15b3823b&p=2&redirect_uri=https%3A%2F%2Fapi.sparx-learning.com%2Foauth2%2Fcallback%2Fsparx&response_type=code&scope=openid+profile+email&state=7O0dAmcwk8tnJWlbTIfIfXzdbSXsET4Lz9hXhgVPd9ZkPegVM2DhEVGwFlwBscUPiiUvfb_kopzGJE08YwSkAxSkbOUvjSne41lCc1cn5bnls52KOP2W5G_jjyEPMZfsmSnZLpgFwUHEPEFvHLmZZT7ZTWkAVqzhQ_ZUSVq8UXMFRFKbWMJT0uJ0CNmbnVVLfrVw33PfWVfo5RcNlh69VmEsLvmWoJCa-sZkxZn8pwq2gIIiQnfPmgIMB2u_yTO1cQIsLdlAGCHyRbLV&ts=1791962068",
+	  "image": "https://apps.bhcet.org.uk/images/sparxreader.png",
+      "description": "Sparx Reader",
+      "priority": 8,
+      "audience": "both",
+      "displayMode": "full"
     }
   },
   "sites": {
@@ -2953,8 +2962,8 @@
       "code": "EMS",
       "ipRanges": [],
       "staffOnly": false,
-      "staffApps": ["kerboodle","copilotteach","copilotstudyandlearn","ems-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","governorhub-linkonly","mylifestyle","onshape","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor-staff","email"],
-      "studentApps": ["kerboodle","ems-arbor","copilotstudyandlearn","onshape","adobeexpress","ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
+      "staffApps": ["ems-sparxreader","kerboodle","copilotteach","copilotstudyandlearn","ems-lgflfsm-linkonly","lgflfsm-linkonly","bromcom-linkonly","bromcom-status","bromcom-docs","bromcom-support","bromcom-comingsoon","bromcom-whatsnew","bromcom-community","copilotcreate","governorhub-linkonly","mylifestyle","onshape","inventryworld","icompleat","saffron-linkonly","sampeopletraininghub-linkonly","thepass-linkonly","bidfood-linkonly","educationsupport","adobeexpress","reviseonline","ems-sparxmaths","ems-acceleratedreader","ems-roombooking","educake-teacher","myon","intofilm","seneca","socialpilot","steplab","unifrog","languagenut","yodeck","sisra","ms-onedrive","ems-website","canva","kyp","classcharts-staff","affinityhub","myhr","copilot","sampeople","mynewterm","evolve","sage-status","sage-intacct","teams","arbor-status","arbor-helpcentre","arbor-traininghub","arbor-hq","arbor-changelog","arbor-roadmap","cpoms","ihasco","ems-arbor-staff","email"],
+      "studentApps": ["ems-sparxreader","kerboodle","ems-arbor","copilotstudyandlearn","onshape","adobeexpress","ems-sparxmaths","ems-acceleratedreader","educake-student","myon","seneca","email","unifrog","languagenut","ms-onedrive","ems-website","reviseonline","canva","teams"]
     },
     "hfp": {
       "name": "Holy Family Catholic Primary School",
